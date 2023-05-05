@@ -27,29 +27,29 @@
             </div> --}}
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <iframe width="100%" height="500" src="https://www.youtube.com/embed/NLmmbel3kzY"
+                            {{-- <iframe width="100%" height="500" src="https://www.youtube.com/embed/NLmmbel3kzY"
                                 title="YouTube video player" frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                allowfullscreen></iframe>
-                            {{-- <img src="{{ asset('assets/img/images/course-5.jpg')}}" class="d-block w-100 opacity-15" alt="..."> --}}
+                                allowfullscreen></iframe> --}}
+                            <img src="{{ asset('assets/img/images/course-5.jpg')}}" class="d-block w-100 opacity-15" alt="...">
                             <div class="carousel-caption d-none d-md-block">
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <iframe width="100%" height="500" src="https://www.youtube.com/embed/NLmmbel3kzY"
+                            {{-- <iframe width="100%" height="500" src="https://www.youtube.com/embed/NLmmbel3kzY"
                                 title="YouTube video player" frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                allowfullscreen></iframe>
-                            {{-- <img src="{{ asset('assets/img/images/course-5.jpg')}}" class="d-block w-100 opacity-15" alt="..."> --}}
+                                allowfullscreen></iframe> --}}
+                            <img src="{{ asset('assets/img/images/course-5.jpg')}}" class="d-block w-100 opacity-15" alt="...">
                             <div class="carousel-caption d-none d-md-block">
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <iframe width="100%" height="500" src="https://www.youtube.com/embed/NLmmbel3kzY"
+                            {{-- <iframe width="100%" height="500" src="https://www.youtube.com/embed/NLmmbel3kzY"
                                 title="YouTube video player" frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                allowfullscreen></iframe>
-                            {{-- <img src="{{ asset('assets/img/images/course-5.jpg')}}" class="d-block w-100 opacity-15" alt="..."> --}}
+                                allowfullscreen></iframe> --}}
+                            <img src="{{ asset('assets/img/images/course-5.jpg')}}" class="d-block w-100 opacity-15" alt="...">
                             <div class="carousel-caption d-none d-md-block">
                             </div>
                         </div>
@@ -232,7 +232,7 @@
             </div>
           </div>
         </div>
-      </section>    
+    </section><!-- End Quotes Section -->
 
     <!-- ======= Counts Section ======= -->
     <section id="counts" class="counts">
@@ -288,18 +288,14 @@
         </div>
     </section><!-- End Counts Section -->
 
-    <!-- ======= Portfolio Section ======= -->
+    <!-- ======= 24 News Section ======= -->
     <section id="portfolio" class="portfolio">
-
         <div class="container" data-aos="fade-up">
-
             <header class="section-header">
                 <h2>BERITA</h2>
                 <p>24 <span class="news">NEWS</span></p>
             </header>
-
             <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
                 <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                     <div class="portfolio-wrap">
                         <img src="{{ asset('assets/img/images/image-5.jpg') }}" class="img-fluid" alt="">
@@ -314,7 +310,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="col-lg-4 col-md-6 portfolio-item filter-web">
                     <div class="portfolio-wrap">
                         <img src="{{ asset('assets/img/images/image-1.jpg') }}" class="img-fluid" alt="">
@@ -329,7 +324,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                     <div class="portfolio-wrap">
                         <img src="{{ asset('assets/img/images/image-6.jpg') }}" class="img-fluid" alt="">
@@ -345,7 +339,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="col-lg-4 col-md-6 portfolio-item filter-card">
                     <div class="portfolio-wrap">
                         <img src="{{ asset('assets/img/images/course-1.jpg') }}" class="img-fluid" alt="">
@@ -361,7 +354,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="col-lg-4 col-md-6 portfolio-item filter-web">
                     <div class="portfolio-wrap">
                         <img src="{{ asset('assets/img/images/course-2.jpg') }}" class="img-fluid" alt="">
@@ -377,7 +369,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                     <div class="portfolio-wrap">
                         <img src="{{ asset('assets/img/images/backg_3.jpg') }}" class="img-fluid" alt="">
@@ -393,7 +384,6 @@
                         </div>
                     </div>
                 </div>
-
                 {{-- <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
               <img src="{{ asset('assets/img/portfolio/portfolio-7.jpg')}}" class="img-fluid" alt="">
@@ -435,70 +425,11 @@
               </div>
             </div>
           </div> --}}
-
             </div>
-
         </div>
-
-    </section><!-- End Portfolio Section -->
-
-    <section class="ftco-section" id="ftco-section">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6 mb-4 course d-lg-flex ftco-animate">
-						<div class="img"><img src="{{ asset('assets/img/images/course-1.jpg')}}" alt="" srcset=""></div>
-						<div class="text bg-light p-4">
-							<p>Mempelajari Flora Tanam</p>
-							<!-- <p class="subheading"><span>Class time:</span> 9:00am - 10am</p> -->
-							<h3>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</h3>
-						</div>
-					</div>
-					<div class="col-md-6 mb-4 course d-lg-flex ftco-animate">
-						<div class="img"><img src="{{ asset('assets/img/images/course-2.jpg')}}" alt="" srcset=""></div>
-						<div class="text bg-light p-4">
-							<p>Mempelajari Flora Gantung</p>
-							<!-- <p class="subheading"><span>Class time:</span> 9:00am - 10am</p> -->
-							<h3>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</h3>
-						</div>
-					</div>
-					<div class="col-md-6 mb-4 course d-lg-flex ftco-animate">
-						<div class="img"><img src="{{ asset('assets/img/images/course-3.jpg')}}" alt="" srcset=""></div>
-						<div class="text bg-light p-4">
-							<p>Konsep Belajar Outdoor</p>
-							<!-- <p class="subheading"><span>Class time:</span> 9:00am - 10am</p> -->
-							<h3>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</h3>
-						</div>
-					</div>
-					<div class="col-md-6 mb-4 course d-lg-flex ftco-animate">
-						<div class="img"><img src="{{ asset('assets/img/images/course-4.jpg')}}" alt="" srcset=""></div>
-						<div class="text bg-light p-4">
-							<p>Belajar Bersama di MAS</p>
-							<!-- <p class="subheading"><span>Class time:</span> 9:00am - 10am</p> -->
-							<h3>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</h3>
-						</div>
-					</div>
-					<div class="col-md-6 mb-4 course d-lg-flex ftco-animate">
-						<div class="img"><img src="{{ asset('assets/img/images/course-5.jpg')}}" alt="" srcset=""></div>
-						<div class="text bg-light p-4">
-							<p>Belajar Membatik</p>
-							<!-- <p class="subheading"><span>Class time:</span> 9:00am - 10am</p> -->
-							<h3>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</h3>
-						</div>
-					</div>
-					<div class="col-md-6 mb-4 course d-lg-flex ftco-animate">
-						<div class="img"><img src="{{ asset('assets/img/images/course-6.jpg')}}" alt="" srcset=""></div>
-						<div class="text bg-light p-4">
-							<p>Materi Membatik</p>
-							<!-- <p class="subheading"><span>Class time:</span> 9:00am - 10am</p> -->
-							<h3>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</h3>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
+    </section><!-- End 24 News Section -->
 
     <!-- ======= Testimonials Section ======= -->
-
     <section id="testimonials" class="testimonials">
         <div class="container" data-aos="fade-up">
             <header class="section-header">
@@ -515,11 +446,11 @@
                                     class="bi bi-star-fill"></i>
                             </div>
                             <p>
-                                {{-- Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper. --}}
-                                <iframe src="https://www.youtube.com/embed/gx40AvylMJA" title="YouTube video player"
+                                Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                                {{-- <iframe src="https://www.youtube.com/embed/gx40AvylMJA" title="YouTube video player"
                                     frameborder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                    allowfullscreen></iframe>
+                                    allowfullscreen></iframe> --}}
                             </p>
                             <div class="profile mt-auto">
                                 <img src="{{ asset('assets/img/images/teacher_7.jpg') }}" class="testimonial-img"
@@ -538,10 +469,11 @@
                                     class="bi bi-star-fill"></i>
                             </div>
                             <p>
-                                <iframe src="https://www.youtube.com/embed/gx40AvylMJA" title="YouTube video player"
+                                Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                                {{-- <iframe src="https://www.youtube.com/embed/gx40AvylMJA" title="YouTube video player"
                                     frameborder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                    allowfullscreen></iframe>
+                                    allowfullscreen></iframe> --}}
                             </p>
                             <div class="profile mt-auto">
                                 <img src="{{ asset('assets/img/images/teacher_4.jpg') }}" class="testimonial-img"
@@ -560,10 +492,11 @@
                                     class="bi bi-star-fill"></i>
                             </div>
                             <p>
-                                <iframe src="https://www.youtube.com/embed/gx40AvylMJA" title="YouTube video player"
+                                Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                                {{-- <iframe src="https://www.youtube.com/embed/gx40AvylMJA" title="YouTube video player"
                                     frameborder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                    allowfullscreen></iframe>
+                                    allowfullscreen></iframe> --}}
                             </p>
                             <div class="profile mt-auto">
                                 <img src="{{ asset('assets/img/images/teacher_3.jpg') }}" class="testimonial-img"
@@ -582,10 +515,11 @@
                                     class="bi bi-star-fill"></i>
                             </div>
                             <p>
-                                <iframe src="https://www.youtube.com/embed/gx40AvylMJA" title="YouTube video player"
+                                Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                                {{-- <iframe src="https://www.youtube.com/embed/gx40AvylMJA" title="YouTube video player"
                                     frameborder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                    allowfullscreen></iframe>
+                                    allowfullscreen></iframe> --}}
                             </p>
                             <div class="profile mt-auto">
                                 <img src="{{ asset('assets/img/images/teacher_2.jpg') }}" class="testimonial-img"
@@ -604,10 +538,11 @@
                                     class="bi bi-star-fill"></i>
                             </div>
                             <p>
-                                <iframe src="https://www.youtube.com/embed/gx40AvylMJA" title="YouTube video player"
+                                Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                                {{-- <iframe src="https://www.youtube.com/embed/gx40AvylMJA" title="YouTube video player"
                                     frameborder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                    allowfullscreen></iframe>
+                                    allowfullscreen></iframe> --}}
                             </p>
                             <div class="profile mt-auto">
                                 <img src="{{ asset('assets/img/images/teacher6.jpg') }}" class="testimonial-img"
@@ -738,10 +673,11 @@
                 <div class="col-lg-4">
                     <div class="post-box">
                         <div class="post-img">
-                            <iframe width="100%" src="https://www.youtube.com/embed/B1Rxlu0rzPI"
+                            {{-- <iframe width="100%" src="https://www.youtube.com/embed/B1Rxlu0rzPI"
                                 title="YouTube video player" frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                allowfullscreen></iframe>
+                                allowfullscreen></iframe> --}}
+                                <img src="{{ asset('assets/img/images/course-1.jpg')}}" alt="" srcset="">
                         </div>
                         <span class="post-date">4 Oktober 2022</span>
                         <h3 class="post-title">Siswa Kelas 4 Belajar Ragam Flora Tanaman</h3>
@@ -752,10 +688,11 @@
                 <div class="col-lg-4">
                     <div class="post-box">
                         <div class="post-img">
-                            <iframe width="100%" src="https://www.youtube.com/embed/B1Rxlu0rzPI"
+                            {{-- <iframe width="100%" src="https://www.youtube.com/embed/B1Rxlu0rzPI"
                                 title="YouTube video player" frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                allowfullscreen></iframe>
+                                allowfullscreen></iframe> --}}
+                                <img src="{{ asset('assets/img/images/course-1.jpg')}}" alt="" srcset="">
                         </div>
                         <span class="post-date">4 Oktober 2022</span>
                         <h3 class="post-title">KTS Dengan Tema Ragam Flora Gantung</h3>
@@ -766,10 +703,11 @@
                 <div class="col-lg-4">
                     <div class="post-box">
                         <div class="post-img">
-                            <iframe width="100%" src="https://www.youtube.com/embed/B1Rxlu0rzPI"
+                            {{-- <iframe width="100%" src="https://www.youtube.com/embed/B1Rxlu0rzPI"
                                 title="YouTube video player" frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                allowfullscreen></iframe>
+                                allowfullscreen></iframe> --}}
+                                <img src="{{ asset('assets/img/images/course-1.jpg')}}" alt="" srcset="">   
                         </div>
                         <span class="post-date">4 Oktober 2022</span>
                         <h3 class="post-title">Siswa Kelas 5 Menikmati Belajar di Luar Kelas</h3>

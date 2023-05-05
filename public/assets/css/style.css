@@ -467,7 +467,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Hero Section
+# Ftco Section
 --------------------------------------------------------------*/
 
 .ftco-section p {
@@ -491,6 +491,186 @@ section {
 .ftco-section img {
   width: 300px;
   height: 100%;
+}
+/*--------------------------------------------------------------
+# berita-page Section
+--------------------------------------------------------------*/
+.berita-page p {
+  margin: 10px 0 10px 0;
+  padding: 0;
+  font-size: 25px;
+  line-height: 22px;
+  font-weight: 700;
+  color: #f68c09;
+}
+
+.berita-page .blog {
+  margin: 10px 0 10px 0;
+  padding: 0;
+  font-size: 49px;
+  line-height: 42px;
+  font-weight: 700;
+  color: #f68c09;
+}
+
+.berita-page .section-header p {
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-size: 49px;
+  line-height: 42px;
+  font-weight: 700;
+  color: #000;
+}
+
+.berita-page .header {
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin: 0;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.berita-page h3 {
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin: 0;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.berita-page img {
+  width: 300px;
+  height: 100%;
+}
+
+/*--------------------------------------------------------------
+# News Section
+--------------------------------------------------------------*/
+.news p {
+  margin: 10px 10px 10px 0;
+  /* padding: 10px 0 10px; */
+  line-height: 1cm;
+  font-size: 35px;
+  /* line-height: 22px; */
+  font-weight: 700;
+  color: #f68c09;
+}
+
+.news .tgl{
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
+.news .blog {
+  margin: 20px 0 10px 0;
+  padding: 0;
+  font-size: 49px;
+  line-height: 42px;
+  font-weight: 700;
+  color: #f68c09;
+}
+
+.news .section-header p {
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-size: 49px;
+  line-height: 42px;
+  font-weight: 700;
+  color: #000;
+}
+
+.news .section-header.link:hover {
+  background: #2db6fa;
+}
+
+.news .header {
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin: 0;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.news h3 {
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin-top: 10px;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.news img {
+  width: 300px;
+  height: 100%;
+}
+
+/*--------------------------------------------------------------
+# News-Full Section
+--------------------------------------------------------------*/
+.news-full img{
+  width: 1000px;
+  height: 100%;
+  margin: 20px 0 20px;
+}
+
+.news-full p {
+  margin: 10px 10px 10px 0;
+  /* padding: 10px 0 10px; */
+  line-height: 1cm;
+  font-size: 35px;
+  /* line-height: 22px; */
+  font-weight: 700;
+  color: #f68c09;
+}
+
+.news-full .tgl{
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
+.news-full .blog {
+  margin: 20px 0 10px 0;
+  padding: 0;
+  font-size: 49px;
+  line-height: 42px;
+  font-weight: 700;
+  color: #f68c09;
+}
+
+.news-full .section-header p {
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-size: 49px;
+  line-height: 42px;
+  font-weight: 700;
+  color: #000;
+}
+
+.news-full .section-header.link:hover {
+  background: #2db6fa;
+}
+
+.news-full .header {
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin: 0;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.news-full h3 {
+  font-size: 13px;
+  letter-spacing: 1px;
+  text-indent: 70px;
+  font-weight: 700;
+  margin-top: 10px;
+  color: #000;
+  text-transform: uppercase;
 }
 /*--------------------------------------------------------------
 # Hero Section
@@ -830,11 +1010,24 @@ section {
 /*--------------------------------------------------------------
 # Features
 --------------------------------------------------------------*/
+.features {
+  /* background: url(../img/hero-bg.png) no-repeat; */
+  margin-top: 5px;
+}
+
+.features .section-header{
+  margin-top: 50px;
+}
+.features .container{
+  margin-bottom: 5px;
+}
 .features .feature-box {
   padding: 24px 20px 20px;
+  background: url(../img/hero-bg.png) no-repeat;
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
   transition: 0.3s;
   height: 100%;
+  margin-bottom: 100px;
 }
 
 .features .us{
@@ -843,7 +1036,7 @@ section {
 
 .features .feature-box h3 {
   font-size: 18px;
-  color: #012970;
+  color: darkorange;
   font-weight: 700;
   margin: 0;
 }
@@ -868,10 +1061,15 @@ section {
 }
 
 .features .feture-tabs h3 {
-  color: #012970;
+  color: #000;
   font-weight: 700;
   font-size: 32px;
   margin-bottom: 10px;
+  margin-top: -100px;
+}
+
+.features .feture-tabs .txt{
+  color: darkorange;
 }
 
 @media (max-width: 768px) {
@@ -889,7 +1087,7 @@ section {
   text-transform: uppercase;
   font-size: 15px;
   font-weight: 600;
-  color: #012970;
+  color: #f68c09;
   padding: 12px 0;
   margin-right: 25px;
   margin-bottom: -2px;
@@ -897,15 +1095,15 @@ section {
 }
 
 .features .feture-tabs .nav-link.active {
-  color: #4154f1;
-  border-bottom: 3px solid #4154f1;
+  color: #f68c09;
+  border-bottom: 3px solid #f68c09;
 }
 
 .features .feture-tabs .tab-content h4 {
   font-size: 18px;
   margin: 0;
   font-weight: 700;
-  color: #012970;
+  color: #f68c09;
 }
 
 
@@ -913,7 +1111,7 @@ section {
   font-size: 24px;
   line-height: 0;
   margin-right: 8px;
-  color: #4154f1;
+  color: #f68c09;
 }
 
 .features .feature-icons {
@@ -978,6 +1176,10 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+.services {
+  margin-top: 30px;
+  
+}
 .services .service-box {
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
   height: 100%;
@@ -1133,12 +1335,20 @@ section {
 /*--------------------------------------------------------------
 # Pricing
 --------------------------------------------------------------*/
+.pricing {
+  background: url(../img/hero-bg.png) no-repeat;
+  margin-top: -60px;
+}
+.pricing .section-header{
+  margin-top: 50px;
+}
 .pricing .box {
   padding: 40px 20px;
+  margin-bottom: 25px;
   background: #fff;
   text-align: center;
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
-  border-radius: 4px;
+  border-radius: 15px;
   position: relative;
   overflow: hidden;
   transition: 0.3s;
@@ -1165,6 +1375,7 @@ section {
 
 .pricing .price {
   font-size: 36px;
+  margin-bottom: 10px;
   color: #444444;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
@@ -1209,18 +1420,59 @@ section {
   display: inline-block;
   padding: 8px 40px 10px 40px;
   border-radius: 50px;
-  color: #4154f1;
+  color: #f68c09;
   transition: none;
   font-size: 16px;
   font-weight: 400;
   font-family: "Nunito", sans-serif;
   font-weight: 600;
   transition: 0.3s;
-  border: 1px solid #4154f1;
+  border: 1px solid #f68c09;
 }
 
 .pricing .btn-buy:hover {
-  background: #4154f1;
+  background: #f68c09;
+  color: #fff;
+}
+
+.pricing .pembayaran .btn-konfirmasi {
+  margin-bottom: 20px;
+  display: block;
+  text-align: center;
+  padding: 10px 40px 10px 40px;
+  border-radius: 50px;
+  color: #0bbe6b;
+  transition: none;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+  border: 1px solid #0bbe6b;
+}
+
+.pricing .pembayaran .btn-konfirmasi:hover {
+  background: #0bbe6b;
+  color: #fff;
+}
+
+.pricing .pembayaran .btn-daftar {
+  text-align: center;
+  display: block;
+  padding: 10px 40px 10px 40px;
+  border-radius: 50px;
+  color: #f68c09;
+  transition: none;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+  border: 1px solid #f68c09;
+}
+
+.pricing .pembayaran .btn-daftar:hover {
+  background: #f68c09;
   color: #fff;
 }
 
@@ -1449,6 +1701,7 @@ section {
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
+
 .portfolio-details {
   padding-top: 40px;
 }
@@ -1519,8 +1772,7 @@ section {
   padding: 30px;
   margin: 40px 30px;
   box-shadow: 0px 0 20px rgba(1, 41, 112, 0.1);
-  /* background: #fff; */
-  /* background: #b2f889; */
+  border-radius: 20px;
   background: #f1ecbf;
   min-height: 320px;
   display: flex;
@@ -1604,7 +1856,6 @@ section {
     transform: scale(1.12);
   }
 }
-
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
@@ -1620,7 +1871,7 @@ section {
 .team .member {
   overflow: hidden;
   text-align: center;
-  border-radius: 5px;
+  border-radius: 20px;
   background: #fff;
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
   transition: 0.3s;
@@ -1805,17 +2056,99 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Berita TV Section
+--------------------------------------------------------------*/
+.berita-tv .post-box {
+  box-shadow: 0px 0 60px rgba(1, 41, 112, 0.08);
+  transition: 0.3s;
+  height: 100%;
+  overflow: hidden;
+  padding: 30px;
+  border-radius: 8px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.berita-tv p{
+  color: #000;
+}
+
+.berita-tv .blog{
+  color:#f68c09;
+}
+
+.berita-tv .post-box .post-img {
+  overflow: hidden;
+  margin: -30px -30px 15px -30px;
+  position: relative;
+}
+
+.berita-tv .post-box .post-img img {
+  transition: 0.5s;
+}
+
+.berita-tv .post-box .post-date {
+  font-size: 16px;
+  font-weight: 600;
+  color: #f68c09;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.berita-tv .post-box .post-title {
+  font-size: 24px;
+  color: #012970;
+  font-weight: 700;
+  margin-bottom: 18px;
+  position: relative;
+  transition: 0.3s;
+}
+
+.berita-tv .post-box .readmore {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  line-height: 1;
+  transition: 0.3s;
+}
+
+.berita-tv .post-box .readmore i {
+  line-height: 0;
+  margin-left: 4px;
+  font-size: 18px;
+}
+
+.berita-tv .post-box:hover .post-title {
+  color: #4154f1;
+}
+
+.berita-tv .post-box:hover .post-img img {
+  transform: rotate(6deg) scale(1.2);
+}
+
+
+/*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
 .contact .info-box {
   color: #444444;
+  border-radius: 25px;
   background: #fafbff;
   padding: 30px;
 }
 
+.contact .section-header{
+  margin-top: 65px;
+}
 .contact {
-  background-image: url(../img/images/93178.jpg);
-  
+  /* background-image: url(../img/images/bg5.jpg); */
+  background: url(../img/hero-bg.png) no-repeat;
+  margin-top: -58px;
+}
+
+.contact .cus{
+  color: #f68c09;
 }
 
 .contact .info-box i {
@@ -1842,6 +2175,7 @@ section {
   background: #fafbff;
   padding: 30px;
   height: 100%;
+  margin-top: 30px;
 }
 
 .contact .php-email-form .error-message {

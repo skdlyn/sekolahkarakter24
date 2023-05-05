@@ -28,3 +28,19 @@ Route::get('/ppdb', function () {
 Route::get('/contact', function () {
     return view('contact');
 });
+
+Route::get('/berita', function () {
+    return view('berita');
+});
+
+Route::get('/news', function () {
+    return view('news');
+});
+
+Route::get('/tv', function () {
+    return view('tv');
+});
+
+Route::get('/news_lengkap', function () {
+    return view('news_lengkap');
+});
