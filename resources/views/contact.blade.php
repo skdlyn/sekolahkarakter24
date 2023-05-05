@@ -58,19 +58,23 @@
 
             </div>
             <div class="form col-lg-12">
-                <form action="forms/contact.php" method="post" class="php-email-form">
+              <header class="section-header">
+                <p>INGIN MENGAJUKAN <span class="cus">KONSULTASI DENGAN KAMI</span></p>
+                <h2 style="margin-top: 15px">Kami siap memberikan yang terbaik bagi anak dari Ayah Bunda. Apabila ada yang ingin ditanyakan dan disampaikan, kami siap membantu.</h2>
+            </header>
+                <form action="forms/contact.php" method="post" class="php-email-form" style="background-color: rgb(203, 253, 253); border-radius:25px">
                     <div class="row gy-4">
                         <div class="col-md-6">
-                            <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                            <input type="text" name="name" class="form-control" placeholder="Nama Anda" required>
                         </div>
                         <div class="col-md-6 ">
-                            <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+                            <input type="number" class="form-control" name="email" placeholder="Nomor WhatsApp" required>
                         </div>
                         <div class="col-md-12">
-                            <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+                            <input type="email" class="form-control" name="subject" placeholder="E-Mail" required>
                         </div>
                         <div class="col-md-12">
-                            <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
+                            <textarea class="form-control" name="message" rows="6" placeholder="Pesan Anda" required></textarea>
                         </div>
                         <div class="col-md-12 text-center">
                             <div class="loading">Loading</div>
