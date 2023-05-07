@@ -45,6 +45,6 @@ Route::get('/news_lengkap', function () {
     return view('news_lengkap');
 });
 
-Route::get('/nyoba', function () {
-    return view('nyoba');
+Route::get('/agenda', function () {
+    return view('agenda');
 });

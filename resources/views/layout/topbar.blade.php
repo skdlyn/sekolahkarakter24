@@ -25,7 +25,7 @@
                     </ul>
                 </li>
                 <li><a class="nav-link scrollto" href="/ppdb">PPDB 2023-2024</a></li>
-                <li><a class="nav-link scrollto" href="#">Agenda</a></li>
+                <li><a class="nav-link scrollto" href="/agenda">Agenda</a></li>
                 <li><a class="nav-link scrollto" href="/contact">Kontak</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
