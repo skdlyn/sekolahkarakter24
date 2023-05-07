@@ -1,73 +1,130 @@
 @extends('layout.admin')
 @section('content')
-    <section class="berita-page" id="berita-page">
-        <div class="container">
+    <section class="trending" id="trending">
+        <div class="container" data-aos="fade-up">
             <header class="section-header">
                 <h2>BERITA</h2>
-                <p>BERANDA <span class="blog">24</span></p>
+                <p>TRENDING <span class="blog" style="color: #f68c09">24</span></p>
             </header>
-            <div class="row">
-                <div class="col-md-6 mb-4 course d-lg-flex ftco-animate">
-                    <div class="img"><img src="{{ asset('assets/img/images/course-1.jpg') }}" alt="" srcset="">
-                    </div>
-                    <div class="text bg-light p-4">
-                        <p>Mempelajari Flora Tanam</p>
-                        <!-- <p class="subheading"><span>Class time:</span> 9:00am - 10am</p> -->
-                        <h3>Separated they live in. A small river named Duden flows by their place and supplies it with the
-                            necessary regelialia. It is a paradisematic country</h3>
-                    </div>
-                </div>
-                <div class="col-md-6 mb-4 course d-lg-flex ftco-animate">
-                    <div class="img"><img src="{{ asset('assets/img/images/course-2.jpg') }}" alt=""
-                            srcset=""></div>
-                    <div class="text bg-light p-4">
-                        <p>Mempelajari Flora Gantung</p>
-                        <!-- <p class="subheading"><span>Class time:</span> 9:00am - 10am</p> -->
-                        <h3>Separated they live in. A small river named Duden flows by their place and supplies it with the
-                            necessary regelialia. It is a paradisematic country</h3>
-                    </div>
-                </div>
-                <div class="col-md-6 mb-4 course d-lg-flex ftco-animate">
-                    <div class="img"><img src="{{ asset('assets/img/images/course-3.jpg') }}" alt=""
-                            srcset=""></div>
-                    <div class="text bg-light p-4">
-                        <p>Konsep Belajar Outdoor</p>
-                        <!-- <p class="subheading"><span>Class time:</span> 9:00am - 10am</p> -->
-                        <h3>Separated they live in. A small river named Duden flows by their place and supplies it with the
-                            necessary regelialia. It is a paradisematic country</h3>
-                    </div>
-                </div>
-                <div class="col-md-6 mb-4 course d-lg-flex ftco-animate">
-                    <div class="img"><img src="{{ asset('assets/img/images/course-4.jpg') }}" alt=""
-                            srcset=""></div>
-                    <div class="text bg-light p-4">
-                        <p>Belajar Bersama di MAS</p>
-                        <!-- <p class="subheading"><span>Class time:</span> 9:00am - 10am</p> -->
-                        <h3>Separated they live in. A small river named Duden flows by their place and supplies it with the
-                            necessary regelialia. It is a paradisematic country</h3>
-                    </div>
-                </div>
-                <div class="col-md-6 mb-4 course d-lg-flex ftco-animate">
-                    <div class="img"><img src="{{ asset('assets/img/images/course-5.jpg') }}" alt=""
-                            srcset=""></div>
-                    <div class="text bg-light p-4">
-                        <p>Belajar Membatik</p>
-                        <!-- <p class="subheading"><span>Class time:</span> 9:00am - 10am</p> -->
-                        <h3>Separated they live in. A small river named Duden flows by their place and supplies it with the
-                            necessary regelialia. It is a paradisematic country</h3>
-                    </div>
-                </div>
-                <div class="col-md-6 mb-4 course d-lg-flex ftco-animate">
-                    <div class="img"><img src="{{ asset('assets/img/images/course-6.jpg') }}" alt=""
-                            srcset=""></div>
-                    <div class="text bg-light p-4">
-                        <p>Materi Membatik</p>
-                        <!-- <p class="subheading"><span>Class time:</span> 9:00am - 10am</p> -->
-                        <h3>Separated they live in. A small river named Duden flows by their place and supplies it with the
-                            necessary regelialia. It is a paradisematic country</h3>
+            <div class="trending-area fix">
+                <div class="trending-main">
+                    <div class="row mt-40">
+                        <div class="col-lg-6">
+                            <!-- Trending Top -->
+                            <div class="trending-top mb-30">
+                                <div class="trend-top-img">
+                                    <img src="{{ asset('assets/img/images/course-1.jpg') }}" alt="" width="100%"
+                                        height="100%">
+                                    <div class="trend-top-cap">
+                                        {{-- <span>Kelas 5</span> --}}
+                                        <h2><a href="/news_lengkap">Selamat Datang Di<br> Sekolah Karakter 24 Surabaya</a>
+                                        </h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Trending Bottom -->
+                            <div class="trending-bottom">
+                                <div class="row">
+                                    <div class="col-lg-4" style="margin-top: 50px">
+                                        <div class="single-bottom mb-35">
+                                            <div class="trend-bottom-img mb-30">
+                                                <img src="assets/img/images/course-2.jpg" alt="" width="100%"
+                                                    height="100%">
+                                            </div>
+                                            <div class="trend-bottom-cap">
+                                                <span class="color1">Kelas 1</span>
+                                                <h4><a href="/news_lengkap">Peringatan Hari Pahlawan Momentum Semai Karakter
+                                                        Generasi Bangsa</a></h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4" style="margin-top: 50px">
+                                        <div class="single-bottom mb-35">
+                                            <div class="trend-bottom-img mb-30">
+                                                <img src="assets/img/images/course-2.jpg" alt="" width="100%"
+                                                    height="100%">
+                                            </div>
+                                            <div class="trend-bottom-cap">
+                                                <span class="color2">Kelas 3</span>
+                                                <h4>
+                                                    <h4><a href="/news_lengkap">Peringatan Hari Pahlawan Momentum Semai
+                                                            Karakter Generasi Bangsa</a></h4>
+                                                </h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4" style="margin-top: 50px">
+                                        <div class="single-bottom mb-35">
+                                            <div class="trend-bottom-img mb-30">
+                                                <img src="assets/img/images/course-2.jpg" alt="" width="100%"
+                                                    height="100%">
+                                            </div>
+                                            <div class="trend-bottom-cap">
+                                                <span class="color3">Kelas 1</span>
+                                                <h4><a href="/news_lengkap"> Serunya Lomba HUT RI di Sekolah Karakter SDM 24
+                                                        Surabaya</a></h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Riht content -->
+                        <div class="col-lg-6">
+                            <div class="trand-right-single d-flex">
+                                <div class="trand-right-img">
+                                    <img src="assets/img/images/course-1.jpg" alt="" width="100%" height="100%">
+                                </div>
+                                <div class="trand-right-cap">
+                                    <span class="color1">Kelas 2</span>
+                                    <h4><a href="/news_lengkap">Serunya Lomba HUT RI di Sekolah Karakter SDM 24 Surabaya</a>
+                                    </h4>
+                                </div>
+                            </div>
+                            <div class="trand-right-single d-flex">
+                                <div class="trand-right-img">
+                                    <img src="assets/img/images/course-2.jpg" alt="" width="100%" height="100%">
+                                </div>
+                                <div class="trand-right-cap">
+                                    <span class="color3">Kelas 5</span>
+                                    <h4><a href="/news_lengkap">Serunya Lomba HUT RI di Sekolah Karakter SDM 24 Surabaya</a>
+                                    </h4>
+                                </div>
+                            </div>
+                            <div class="trand-right-single d-flex">
+                                <div class="trand-right-img">
+                                    <img src="assets/img/images/course-3.jpg" alt="" width="100%" height="100%">
+                                </div>
+                                <div class="trand-right-cap">
+                                    <span class="color2">Kelas 4</span>
+                                    <h4><a href="/news_lengkap">Serunya Lomba HUT RI di Sekolah Karakter SDM 24 Surabaya</a>
+                                    </h4>
+                                </div>
+                            </div>
+                            <div class="trand-right-single d-flex">
+                                <div class="trand-right-img">
+                                    <img src="assets/img/images/course-3.jpg" alt="" width="100%" height="100%">
+                                </div>
+                                <div class="trand-right-cap">
+                                    <span class="color4">Kelas 6</span>
+                                    <h4><a href="/news_lengkap">Serunya Lomba HUT RI di Sekolah Karakter SDM 24 Surabaya</a>
+                                    </h4>
+                                </div>
+                            </div>
+                            {{-- <div class="trand-right-single d-flex">
+                                    <div class="trand-right-img">
+                                        <img src="assets/img/images/course-11.jpg" alt="" width="100%" height="100%">
+                                    </div>
+                                    <div class="trand-right-cap">
+                                        <span class="color1">Skeping</span>
+                                        <h4><a href="details.html">Welcome To The Best Model Winner Contest</a></h4>
+                                    </div>
+                                </div> --}}
+                        </div>
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     </section>
     <!-- ======= Recent Blog Posts Section ======= -->

@@ -44,3 +44,7 @@ Route::get('/tv', function () {
 Route::get('/news_lengkap', function () {
     return view('news_lengkap');
 });
+
+Route::get('/nyoba', function () {
+    return view('nyoba');
+});

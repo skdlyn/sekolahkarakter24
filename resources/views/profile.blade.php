@@ -12,7 +12,7 @@
                     <!-- Tabs -->
                     <ul class="nav nav-pills mb-3">
                         <li>
-                            <a class="nav-link active" data-bs-toggle="pill" href="#tab1">Tentang Kami</a>
+                            <h5 class="mt-10">Tentang Kami</h5>
                         </li>
                     </ul><!-- End Tabs -->
                     <!-- Tab Content -->
@@ -42,9 +42,7 @@
     </section>
     <!-- ======= Services Section ======= -->
     <section id="services" class="services">
-
         <div class="container" data-aos="fade-up">
-
             <header class="section-header">
                 <p>Visi & Misi Kami :</p>
                 <p>Menjadi Sekolah Unggul, Berkarakter dan Berprestasi</p>
@@ -52,38 +50,39 @@
             <div class="row gy-4">
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
                     <div class="service-box blue">
-                        <i class="ri-discuss-line icon"></i>
+                        <img src="{{ asset('assets/img/images/planningc.png') }}" class="img-fluid" alt="" width="100px" height="100px">
                         <h3>Membangun manajemen sekolah berkelanjutan.</h3>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
                     <div class="service-box orange">
-                        <i class="ri-discuss-line icon"></i>
+                        <img src="{{ asset('assets/img/images/win.png') }}" class="img-fluid" alt="" width="100px" height="100px">
                         <h3>VISI : <br> Menjadi Sekolah Unggul, Berkarakter dan Berprestasi</h3>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
                     <div class="service-box pink">
-                        <i class="ri-discuss-line icon"></i>
+                        <img src="{{ asset('assets/img/images/learningc.png') }}" class="img-fluid" alt="" width="100px" height="100px">
                         <h3>Menyelenggarakan pembelajaran yang efektif, kreatif, dan menyenangkan berbasis potensi
                             siswa.</h3>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
                     <div class="service-box green">
-                        <i class="ri-discuss-line icon"></i>
+                        <img src="{{ asset('assets/img/images/communityc.png') }}" class="img-fluid" alt="" width="100px" height="100px">
+
                         <h3>Meningkatkan kualitas pendidik dan tenaga kependidikan.</h3>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
                     <div class="service-box red">
-                        <i class="ri-discuss-line icon"></i>
+                        <img src="{{ asset('assets/img/images/shalat.png') }}" class="img-fluid" alt="" width="100px" height="100px">
                         <h3>Menyiapkan lingkungan sekolah yang islami dan menyenangkan</h3>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
                     <div class="service-box purple">
-                        <i class="ri-discuss-line icon"></i>
+                        <img src="{{ asset('assets/img/images/celebrating.png') }}" class="img-fluid" alt="" width="100px" height="100px">
                         <h3>Meningkatkan semangat berprestasi seluruh warga sekolah sesuai bakat dan minat.</h3>
                     </div>
                 </div>

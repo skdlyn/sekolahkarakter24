@@ -40,29 +40,27 @@
 <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
 <script src="{{ asset('https://kit.fontawesome.com/e4a753eb05.js') }}" crossorigin="anonymous"></script>
 
-<!-- Modal -->
-{{-- <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Understood</button>
-      </div>
-    </div>
-  </div>
-</div> --}}
+<!-- CSS News -->
+<!-- CSS here -->
+<link rel="stylesheet" href="{{ asset('assets/css/newscss/bootstrap.min.css')}}">
+<link rel="stylesheet" href="{{ asset('assets/css/newscss/owl.carousel.min.css')}}">
+<link rel="stylesheet" href="{{ asset('assets/css/newscss/ticker-style.css')}}">
+<link rel="stylesheet" href="{{ asset('assets/css/newscss/flaticon.css')}}">
+<link rel="stylesheet" href="{{ asset('assets/css/newscss/slicknav.css')}}">
+<link rel="stylesheet" href="{{ asset('assets/css/newscss/animate.min.css')}}">
+<link rel="stylesheet" href="{{ asset('assets/css/newscss/magnific-popup.css')}}">
+<link rel="stylesheet" href="{{ asset('assets/css/newscss/fontawesome-all.min.css')}}">
+<link rel="stylesheet" href="{{ asset('assets/css/newscss/themify-icons.css')}}">
+<link rel="stylesheet" href="{{ asset('assets/css/newscss/slick.css')}}">
+<link rel="stylesheet" href="{{ asset('assets/css/newscss/nice-select.css')}}">
+<link rel="stylesheet" href="{{ asset('assets/css/newscss/style.css')}}">
+
+
 <div class="modal fade" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
     aria-hidden="true">
-    <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content" >
-            <div class="modal-header text-center" style="background-color: darkorange">
+    <div class="modal-dialog modal-lg" role="document"  style="border-radius: 15px">
+        <div class="modal-content"  style="border-radius: 25px">
+            <div class="modal-header text-center" style="background-color: darkorange; border-radius:25px 25px 25px 25px">
                 <h4 class="modal-title w-100 font-weight-bold text-white">Keterangan Calon Peserta Didik</h4>
             </div>
             <div class="modal-body mx-3">

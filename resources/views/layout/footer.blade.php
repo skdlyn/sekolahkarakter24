@@ -6,7 +6,7 @@
           <div class="col-lg-7 col-md-12 footer-info">
             <a href="index.html" class="logo d-flex align-items-center">
               <img src="{{ asset('assets/img/images/header-logo.png')}}" alt="">
-              <span>SEKOLAH KARAKTER 24 SURABAYA</span>
+              <span>SEKOLAH KARAKTER 24</span>
             </a>
             <p class="text-white">CONTACT WITH US</p>
             <div class="social-links mt-3">
@@ -40,7 +40,7 @@
 
           <div class="col-lg-3 col-md-12 footer-contact text-center text-white text-md-start">
             <h4>Layanan Informasi</h4>
-            <p>
+            <p class="text-white">
               Jl. Ketintang No.45 Surabaya <br>
               Indonesia <br>
               <strong>Phone:</strong> +6231 827 4477<br>

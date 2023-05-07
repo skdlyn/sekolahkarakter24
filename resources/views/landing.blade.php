@@ -11,7 +11,7 @@
                 <div data-aos="fade-up" data-aos-delay="600">
                     <div class="text-center text-lg-start">
                         <a href="#about"
-                            class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+                            class="btn-get-started scrollto d-inline-flex align-items-center justify-content-end align-self-center">
                             <span>Mulai</span>
                             <i class="bi bi-arrow-right"></i>
                         </a>
@@ -31,7 +31,8 @@
                                 title="YouTube video player" frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                 allowfullscreen></iframe> --}}
-                            <img src="{{ asset('assets/img/images/course-5.jpg')}}" class="d-block w-100 opacity-15" alt="...">
+                            <img src="{{ asset('assets/img/images/course-5.jpg') }}" class="d-block w-100 opacity-15"
+                                alt="...">
                             <div class="carousel-caption d-none d-md-block">
                             </div>
                         </div>
@@ -40,7 +41,8 @@
                                 title="YouTube video player" frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                 allowfullscreen></iframe> --}}
-                            <img src="{{ asset('assets/img/images/course-5.jpg')}}" class="d-block w-100 opacity-15" alt="...">
+                            <img src="{{ asset('assets/img/images/course-5.jpg') }}" class="d-block w-100 opacity-15"
+                                alt="...">
                             <div class="carousel-caption d-none d-md-block">
                             </div>
                         </div>
@@ -49,7 +51,8 @@
                                 title="YouTube video player" frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                 allowfullscreen></iframe> --}}
-                            <img src="{{ asset('assets/img/images/course-5.jpg')}}" class="d-block w-100 opacity-15" alt="...">
+                            <img src="{{ asset('assets/img/images/course-5.jpg') }}" class="d-block w-100 opacity-15"
+                                alt="...">
                             <div class="carousel-caption d-none d-md-block">
                             </div>
                         </div>
@@ -159,14 +162,14 @@
                         <img src="{{ asset('assets/img/images/de-best.png') }}" class="img-fluid p-4" alt="">
                     </div>
                     <div class="col-xl-4 d-flex content">
-                        <div class="row align-self-center gy-4">
+                        <div class="row align-self-center gy-2">
                             <div class="col-md-6 icon-box" data-aos="fade-up">
                                 <i class="fa-solid fa-book-quran"></i>
                                 <div>
                                     <h4>QUR'AN</h4>
                                 </div>
                             </div>
-                            <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+                            <div class="col-md-6 mr-10 icon-box" data-aos="fade-up" data-aos-delay="100">
                                 <i class="fa-solid fa-people-group"></i>
                                 <div>
                                     <h4>SOCIAL RESPONSIBILITY</h4>
@@ -178,7 +181,7 @@
                                     <h4>SAINTEK</h4>
                                 </div>
                             </div>
-                            <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+                            <div class="col-md-6 mr-10 icon-box" data-aos="fade-up" data-aos-delay="300">
                                 <i class="fa-solid fa-trophy"></i>
                                 <div>
                                     <h4>SPORT & ART</h4>
@@ -192,45 +195,46 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4 text-center mr-2" data-aos="fade-right" data-aos-delay="100">
-                      <img src="{{ asset('assets/img/images/bintang-karakter.png') }}" class="img-fluid p-4" alt="">
-                  </div>
+                    <div class="col-xl-4 text-center" data-aos="fade-right" data-aos-delay="100">
+                        <img src="{{ asset('assets/img/images/bintang-karakter.png') }}" class="img-fluid"
+                            alt="">
+                    </div>
                 </div>
             </div>
         </div>
         </div>
-    </section><!-- End Features Section -->
-
+    </section>
     <!-- Quotes -->
     <section class="quotes">
         <div class="container h-50" data-aos="fade-up">
-          <div class="row d-flex justify-content-center align-items-center h-50"  data-aos="fade-up">
-            {{-- <div class="col col-lg-12 col-xl-12"> --}}
-              <div class="card" style="border-radius: 15px; background-color: rgb(196, 240, 240)">
-                <div class="card-body p-5">
-      
-                  <div class="text-center mb-4 pb-2 " data-aos="fade-up">
-                    <img src="{{ asset('assets/img/images/biografi.png')}}"
-                      alt="Bulb" width="300px">
-                  </div>
-      
-                  <figure class="text-center mb-0" data-aos="fade-up">
-                    <blockquote class="blockquote">
-                      <p class="pb-3">
-                        <i class="fas fa-quote-left fa-xs text-primary"></i>
-                        <span class="lead font-italic" style="font-weight: bold">Apa saja yang bisa membuat orang Islam yang baik, juga bisa membuatnya menjadi warga negara yang baik.</span>
-                        <i class="fas fa-quote-right fa-xs text-primary"></i>
-                      </p>
-                    </blockquote>
-                    <figcaption class="blockquote-footer mb-0">
-                        K.H. Ahmad Dahlan
-                    </figcaption>
-                  </figure>
-      
+            <div class="row d-flex justify-content-center align-items-center h-50" data-aos="fade-up">
+                {{-- <div class="col col-lg-12 col-xl-12"> --}}
+                <div class="card" style="border-radius: 15px; background-color: rgb(196, 240, 240)">
+                    <div class="card-body p-5">
+
+                        <div class="text-center mb-4 pb-2 " data-aos="fade-up">
+                            <img src="{{ asset('assets/img/images/biografi.png') }}" alt="Bulb" width="300px">
+                        </div>
+
+                        <figure class="text-center mb-0" data-aos="fade-up">
+                            <blockquote class="blockquote">
+                                <p class="pb-3">
+                                    <i class="fas fa-quote-left fa-xs text-primary"></i>
+                                    <span class="lead font-italic" style="font-weight: bold">Apa saja yang bisa
+                                        membuat orang Islam yang baik, juga bisa membuatnya menjadi warga negara yang
+                                        baik.</span>
+                                    <i class="fas fa-quote-right fa-xs text-primary"></i>
+                                </p>
+                            </blockquote>
+                            <figcaption class="blockquote-footer mb-0">
+                                K.H. Ahmad Dahlan
+                            </figcaption>
+                        </figure>
+
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
+        </div>
         </div>
     </section><!-- End Quotes Section -->
 
@@ -303,9 +307,7 @@
                             <h4>Kegiatan Study Tour (SBY ZOO)</h4>
                             <p>Kelas 3</p>
                             <div class="portfolio-links">
-                                <a href="{{ asset('assets/img/images/image-5.jpg') }}" data-gallery="portfolioGallery"
-                                    class="portfokio-lightbox" title="Baca Sekilas"></h1><i class="bi bi-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                                <a href="/news_lengkap" title="More Details"><i class="bi bi-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -317,9 +319,7 @@
                             <h4>Kegiatan Study Tour (Kebun Mangrove)</h4>
                             <p>Kelas 4</p>
                             <div class="portfolio-links">
-                                <a href="{{ asset('assets/img/images/image-1.jpg') }}" data-gallery="portfolioGallery"
-                                    class="portfokio-lightbox" title="Baca Sekilas"><i class="bi bi-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                                <a href="/news_lengkap" title="More Details"><i class="bi bi-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -331,10 +331,7 @@
                             <h4>Pengenalan Tentang Tanaman Mangrove</h4>
                             <p>Kelas 3</p>
                             <div class="portfolio-links">
-                                <a href="{{ asset('assets/img/images/image-6.jpg') }}"
-                                    data-gallery="portfolioGallery" class="portfokio-lightbox"
-                                    title="Baca Sekilas"><i class="bi bi-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                                <a href="/news_lengkap" title="More Details"><i class="bi bi-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -346,10 +343,7 @@
                             <h4>Sesi Pembelajaran Outclass</h4>
                             <p>Kelas 4</p>
                             <div class="portfolio-links">
-                                <a href="{{ asset('assets/img/images/course-1.jpg') }}"
-                                    data-gallery="portfolioGallery" class="portfokio-lightbox"
-                                    title="Baca Sekilas"><i class="bi bi-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                                <a href="/news_lengkap" title="More Details"><i class="bi bi-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -361,10 +355,7 @@
                             <h4>Mempelajari Flora Tanam</h4>
                             <p>Kegiatan Kelas 3</p>
                             <div class="portfolio-links">
-                                <a href="{{ asset('assets/img/images/course-2.jpg') }}"
-                                    data-gallery="portfolioGallery" class="portfokio-lightbox"
-                                    title="Baca Sekilas"><i class="bi bi-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                                <a href="/news_lengkap" title="More Details"><i class="bi bi-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -376,10 +367,7 @@
                             <h4>Pentas GMT</h4>
                             <p>Kelas 6</p>
                             <div class="portfolio-links">
-                                <a href="{{ asset('assets/img/images/backg_3.jpg') }}"
-                                    data-gallery="portfolioGallery" class="portfokio-lightbox"
-                                    title="Baca Sekilas"><i class="bi bi-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                                <a href="/news_lengkap" title="More Details"><i class="bi bi-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -446,7 +434,9 @@
                                     class="bi bi-star-fill"></i>
                             </div>
                             <p>
-                                Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                                Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit
+                                rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam,
+                                risus at semper.
                                 {{-- <iframe src="https://www.youtube.com/embed/gx40AvylMJA" title="YouTube video player"
                                     frameborder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -469,7 +459,9 @@
                                     class="bi bi-star-fill"></i>
                             </div>
                             <p>
-                                Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                                Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit
+                                rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam,
+                                risus at semper.
                                 {{-- <iframe src="https://www.youtube.com/embed/gx40AvylMJA" title="YouTube video player"
                                     frameborder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -492,7 +484,9 @@
                                     class="bi bi-star-fill"></i>
                             </div>
                             <p>
-                                Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                                Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit
+                                rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam,
+                                risus at semper.
                                 {{-- <iframe src="https://www.youtube.com/embed/gx40AvylMJA" title="YouTube video player"
                                     frameborder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -515,7 +509,9 @@
                                     class="bi bi-star-fill"></i>
                             </div>
                             <p>
-                                Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                                Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit
+                                rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam,
+                                risus at semper.
                                 {{-- <iframe src="https://www.youtube.com/embed/gx40AvylMJA" title="YouTube video player"
                                     frameborder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -538,7 +534,9 @@
                                     class="bi bi-star-fill"></i>
                             </div>
                             <p>
-                                Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                                Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit
+                                rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam,
+                                risus at semper.
                                 {{-- <iframe src="https://www.youtube.com/embed/gx40AvylMJA" title="YouTube video player"
                                     frameborder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -677,11 +675,12 @@
                                 title="YouTube video player" frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                 allowfullscreen></iframe> --}}
-                                <img src="{{ asset('assets/img/images/course-1.jpg')}}" alt="" srcset="">
+                            <img src="{{ asset('assets/img/images/course-1.jpg') }}" alt="" srcset="">
                         </div>
                         <span class="post-date">4 Oktober 2022</span>
                         <h3 class="post-title">Siswa Kelas 4 Belajar Ragam Flora Tanaman</h3>
-                        <a href="https://www.youtube.com/embed/B1Rxlu0rzPI" class="readmore stretched-link mt-auto"><span>Tonton Video</span><i
+                        <a href="https://www.youtube.com/embed/B1Rxlu0rzPI"
+                            class="readmore stretched-link mt-auto"><span>Tonton Video</span><i
                                 class="bi bi-arrow-right"></i></a>
                     </div>
                 </div>
@@ -692,11 +691,12 @@
                                 title="YouTube video player" frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                 allowfullscreen></iframe> --}}
-                                <img src="{{ asset('assets/img/images/course-1.jpg')}}" alt="" srcset="">
+                            <img src="{{ asset('assets/img/images/course-1.jpg') }}" alt="" srcset="">
                         </div>
                         <span class="post-date">4 Oktober 2022</span>
                         <h3 class="post-title">KTS Dengan Tema Ragam Flora Gantung</h3>
-                        <a href="https://www.youtube.com/embed/B1Rxlu0rzPI" class="readmore stretched-link mt-auto"><span>Tonton Video</span><i
+                        <a href="https://www.youtube.com/embed/B1Rxlu0rzPI"
+                            class="readmore stretched-link mt-auto"><span>Tonton Video</span><i
                                 class="bi bi-arrow-right"></i></a>
                     </div>
                 </div>
@@ -707,11 +707,12 @@
                                 title="YouTube video player" frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                 allowfullscreen></iframe> --}}
-                                <img src="{{ asset('assets/img/images/course-1.jpg')}}" alt="" srcset="">   
+                            <img src="{{ asset('assets/img/images/course-1.jpg') }}" alt="" srcset="">
                         </div>
                         <span class="post-date">4 Oktober 2022</span>
                         <h3 class="post-title">Siswa Kelas 5 Menikmati Belajar di Luar Kelas</h3>
-                        <a href="https://www.youtube.com/embed/B1Rxlu0rzPI" class="readmore stretched-link mt-auto"><span>Tonton Video</span><i
+                        <a href="https://www.youtube.com/embed/B1Rxlu0rzPI"
+                            class="readmore stretched-link mt-auto"><span>Tonton Video</span><i
                                 class="bi bi-arrow-right"></i></a>
                     </div>
                 </div>
@@ -721,35 +722,44 @@
 
     <!-- ======= Gallery Photo ====== -->
     <section class="ftco-gallery">
-    	<div class="container-wrap">
-    		<div class="row no-gutters">
-					<div class="col-md-3 ftco-animate">
-						<a href="assets/img/images/image-1.jpg" class="gallery image-popup img d-flex align-items-center"><img src="{{ asset('assets/img/images/image-1.jpg')}}" alt="" srcset="" width="100%" height="100%">
-							<div class="icon mb-4 d-flex align-items-center justify-content-center">
-    					</div>
-						</a>
-					</div>
-					<div class="col-md-3 ftco-animate">
-						<a href="" class="gallery image-popup img d-flex align-items-center"><img src="{{ asset('assets/img/images/image-2.jpg')}}" alt="" srcset="" width="100%">
-							<div class="icon mb-4 d-flex align-items-center justify-content-center">
-    					</div>
-						</a>
-					</div>
-					<div class="col-md-3 ftco-animate">
-						<a href="" class="gallery image-popup img d-flex align-items-center"><img src="{{ asset('assets/img/images/image-1.jpg')}}" alt="" srcset="" width="100%" height="100%">
-							<div class="icon mb-4 d-flex align-items-center justify-content-center">
-    					</div>
-						</a>
-					</div>
-					<div class="col-md-3 ftco-animate">
-						<a href="" class="gallery image-popup img d-flex align-items-center"><img src="{{ asset('assets/img/images/image-2.jpg')}}" alt="" srcset="" width="100%">
-							<div class="icon mb-4 d-flex align-items-center justify-content-center">
-    					</div>
-						</a>
-					</div>
+        <div class="container-wrap">
+            <div class="row no-gutters">
+                <div class="col-md-3 ftco-animate">
+                    <a href="assets/img/images/image-1.jpg"
+                        class="gallery image-popup img d-flex align-items-center"><img
+                            src="{{ asset('assets/img/images/image-1.jpg') }}" alt="" srcset=""
+                            width="100%" height="100%">
+                        <div class="icon mb-4 d-flex align-items-center justify-content-center">
+                        </div>
+                    </a>
                 </div>
-    	    </div>
-    </section><!-- Enf Gallery --> 
+                <div class="col-md-3 ftco-animate">
+                    <a href="" class="gallery image-popup img d-flex align-items-center"><img
+                            src="{{ asset('assets/img/images/image-2.jpg') }}" alt="" srcset=""
+                            width="100%">
+                        <div class="icon mb-4 d-flex align-items-center justify-content-center">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 ftco-animate">
+                    <a href="" class="gallery image-popup img d-flex align-items-center"><img
+                            src="{{ asset('assets/img/images/image-1.jpg') }}" alt="" srcset=""
+                            width="100%" height="100%">
+                        <div class="icon mb-4 d-flex align-items-center justify-content-center">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 ftco-animate">
+                    <a href="" class="gallery image-popup img d-flex align-items-center"><img
+                            src="{{ asset('assets/img/images/image-2.jpg') }}" alt="" srcset=""
+                            width="100%">
+                        <div class="icon mb-4 d-flex align-items-center justify-content-center">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section><!-- Enf Gallery -->
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
@@ -772,8 +782,8 @@
                                     required>
                             </div>
                             <div class="col-md-12">
-                                <input type="number" class="form-control" name="subject" placeholder="Nomor WhatsApp"
-                                    required>
+                                <input type="number" class="form-control" name="subject"
+                                    placeholder="Nomor WhatsApp" required>
                             </div>
                             <div class="col-md-12">
                                 <textarea class="form-control" name="message" rows="6" placeholder="Pesan" required></textarea>
