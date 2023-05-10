@@ -1,5 +1,6 @@
 @extends('layout.admin')
 @section('content')
+@section('content-title', 'Profile')
     <!-- ======= Features Section ======= -->
     <section id="features" class="features">
         <div class="container" data-aos="fade-up">
@@ -35,7 +36,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <img src="{{ asset('assets/img/images/course-6.jpg') }}" class="img-fluid" alt="">
+                    <img src="{{ asset('assets/img/images/course-4.jpg') }}" class="img-fluid" alt="" width="100%">
                 </div>
             </div><!-- End Feature Tabs -->
         </div>
@@ -50,39 +51,44 @@
             <div class="row gy-4">
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
                     <div class="service-box blue">
-                        <img src="{{ asset('assets/img/images/planningc.png') }}" class="img-fluid" alt="" width="100px" height="100px">
+                        <img src="{{ asset('assets/img/images/planningc.png') }}" class="img-fluid" alt=""
+                            width="100px" height="100px">
                         <h3>Membangun manajemen sekolah berkelanjutan.</h3>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
                     <div class="service-box orange">
-                        <img src="{{ asset('assets/img/images/win.png') }}" class="img-fluid" alt="" width="100px" height="100px">
+                        <img src="{{ asset('assets/img/images/win.png') }}" class="img-fluid" alt="" width="100px"
+                            height="100px">
                         <h3>VISI : <br> Menjadi Sekolah Unggul, Berkarakter dan Berprestasi</h3>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
                     <div class="service-box pink">
-                        <img src="{{ asset('assets/img/images/learningc.png') }}" class="img-fluid" alt="" width="100px" height="100px">
+                        <img src="{{ asset('assets/img/images/learningc.png') }}" class="img-fluid" alt=""
+                            width="100px" height="100px">
                         <h3>Menyelenggarakan pembelajaran yang efektif, kreatif, dan menyenangkan berbasis potensi
                             siswa.</h3>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
                     <div class="service-box green">
-                        <img src="{{ asset('assets/img/images/communityc.png') }}" class="img-fluid" alt="" width="100px" height="100px">
-
+                        <img src="{{ asset('assets/img/images/communityc.png') }}" class="img-fluid" alt=""
+                            width="100px" height="100px">
                         <h3>Meningkatkan kualitas pendidik dan tenaga kependidikan.</h3>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
                     <div class="service-box red">
-                        <img src="{{ asset('assets/img/images/shalat.png') }}" class="img-fluid" alt="" width="100px" height="100px">
+                        <img src="{{ asset('assets/img/images/shalat.png') }}" class="img-fluid" alt=""
+                            width="100px" height="100px">
                         <h3>Menyiapkan lingkungan sekolah yang islami dan menyenangkan</h3>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
                     <div class="service-box purple">
-                        <img src="{{ asset('assets/img/images/celebrating.png') }}" class="img-fluid" alt="" width="100px" height="100px">
+                        <img src="{{ asset('assets/img/images/celebrating.png') }}" class="img-fluid" alt=""
+                            width="100px" height="100px">
                         <h3>Meningkatkan semangat berprestasi seluruh warga sekolah sesuai bakat dan minat.</h3>
                     </div>
                 </div>
@@ -96,96 +102,47 @@
                 <h2>PENCAPAIAN</h2>
                 <p>PRESTASI SISWA <span class="news">SD KARAKTER 24</span></p>
             </header>
-            <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
-                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                    <div class="portfolio-wrap">
-                        <img src="{{ asset('assets/img/images/image-5.jpg') }}" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>Kegiatan Study Tour (SBY ZOO)</h4>
-                            <p>Kelas 3</p>
-                            {{-- <div class="portfolio-links">
-                                <a href="{{ asset('assets/img/images/image-5.jpg') }}" data-gallery="portfolioGallery"
-                                    class="portfokio-lightbox" title="Baca Sekilas"></h1><i class="bi bi-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
-                            </div> --}}
-                        </div>
-                    </div>
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
-                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                    <div class="portfolio-wrap">
-                        <img src="{{ asset('assets/img/images/image-1.jpg') }}" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>Kegiatan Study Tour (Kebun Mangrove)</h4>
-                            <p>Kelas 4</p>
-                            {{-- <div class="portfolio-links">
-                                <a href="{{ asset('assets/img/images/image-1.jpg') }}" data-gallery="portfolioGallery"
-                                    class="portfokio-lightbox" title="Baca Sekilas"><i class="bi bi-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
-                            </div> --}}
-                        </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="{{ asset('assets/img/images/course-2.jpg') }}" class="d-block w-100"
+                            alt="Sunset Over the City" />
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Juara 1 EcoGreen Tingkat Kota</h5>
+                      <p>Some representative placeholder content for the first slide.</p>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                    <div class="portfolio-wrap">
-                        <img src="{{ asset('assets/img/images/image-6.jpg') }}" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>Pengenalan Tentang Tanaman Mangrove</h4>
-                            <p>Kelas 3</p>
-                            {{-- <div class="portfolio-links">
-                                <a href="{{ asset('assets/img/images/image-6.jpg') }}"
-                                    data-gallery="portfolioGallery" class="portfokio-lightbox"
-                                    title="Baca Sekilas"><i class="bi bi-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
-                            </div> --}}
-                        </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="{{ asset('assets/img/images/course-2.jpg') }}" class="d-block w-100"
+                            alt="Sunset Over the City" />
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Juara 1 EcoGreen Tingkat Kota</h5>
+                      <p>Some representative placeholder content for the second slide.</p>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                    <div class="portfolio-wrap">
-                        <img src="{{ asset('assets/img/images/course-1.jpg') }}" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>Sesi Pembelajaran Outclass</h4>
-                            <p>Kelas 4</p>
-                            {{-- <div class="portfolio-links">
-                                <a href="{{ asset('assets/img/images/course-1.jpg') }}"
-                                    data-gallery="portfolioGallery" class="portfokio-lightbox"
-                                    title="Baca Sekilas"><i class="bi bi-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
-                            </div> --}}
-                        </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="{{ asset('assets/img/images/course-2.jpg') }}" class="d-block w-100"
+                            alt="Sunset Over the City" />
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Juara 1 EcoGreen Tingkat Kota</h5>
+                      <p>Some representative placeholder content for the third slide.</p>
                     </div>
+                  </div>
                 </div>
-                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                    <div class="portfolio-wrap">
-                        <img src="{{ asset('assets/img/images/course-2.jpg') }}" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>Mempelajari Flora Tanam</h4>
-                            <p>Kegiatan Kelas 3</p>
-                            {{-- <div class="portfolio-links">
-                                <a href="{{ asset('assets/img/images/course-2.jpg') }}"
-                                    data-gallery="portfolioGallery" class="portfokio-lightbox"
-                                    title="Baca Sekilas"><i class="bi bi-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
-                            </div> --}}
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                    <div class="portfolio-wrap">
-                        <img src="{{ asset('assets/img/images/backg_3.jpg') }}" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>Pentas GMT</h4>
-                            <p>Kelas 6</p>
-                            {{-- <div class="portfolio-links">
-                                <a href="{{ asset('assets/img/images/backg_3.jpg') }}"
-                                    data-gallery="portfolioGallery" class="portfokio-lightbox"
-                                    title="Baca Sekilas"><i class="bi bi-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
-                            </div> --}}
-                        </div>
-                    </div>
-                </div>
-            </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
         </div>
     </section><!-- End 24 News Section -->
 @endsection

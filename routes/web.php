@@ -41,6 +41,10 @@ Route::get('/tv', function () {
     return view('tv');
 });
 
+Route::get('/tv_lengkap', function () {
+    return view('tv_lengkap');
+});
+
 Route::get('/news_lengkap', function () {
     return view('news_lengkap');
 });
@@ -48,3 +52,17 @@ Route::get('/news_lengkap', function () {
 Route::get('/agenda', function () {
     return view('agenda');
 });
+
+Route::get('/formulir', function () {
+    return view('formulir');
+});
+
+Route::get('/kurikulum', function () {
+    return view('kurikulum');
+});
+
+Route::get('/debest', function () {
+    return view('debest');
+});
+
+

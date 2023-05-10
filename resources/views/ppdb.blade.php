@@ -1,5 +1,6 @@
 @extends('layout.admin')
 @section('content')
+@section('content-title', 'PPDB SK24')
     <!-- ======= Pricing Section ======= -->
     <section id="pricing" class="pricing">
         <div class="container" data-aos="fade-up">
@@ -59,7 +60,7 @@
                                     Formulir</a>
                             </div>
                            <div class="col-lg-6">
-                               <a href="#" class="btn-daftar" data-bs-toggle="modal" data-bs-target="#modalLoginForm">Daftar
+                               <a href="/formulir" class="btn-daftar">Daftar
                                    Kelas
                                </a>
                            </div>

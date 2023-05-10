@@ -545,6 +545,70 @@ section {
   height: 100%;
 }
 
+
+/*--------------------------------------------------------------
+# Kurikulum Section
+--------------------------------------------------------------*/
+.kurikulum {
+  background: url(../img/images/k1.jpg);
+  background-size:contain;
+}
+
+.kurikulum p {
+  margin: 10px 10px 10px 0;
+  /* padding: 10px 0 10px; */
+  line-height: 1cm;
+  font-size: 35px;
+  /* line-height: 22px; */
+  font-weight: 700;
+  color: #f68c09;
+}
+
+.kurikulum .tgl{
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
+.kurikulum .blog {
+  margin: 20px 0 10px 0;
+  padding: 0;
+  font-size: 49px;
+  line-height: 42px;
+  font-weight: 700;
+  color: #f68c09;
+}
+
+.kurikulum .section-header p {
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-size: 49px;
+  line-height: 42px;
+  font-weight: 700;
+  color: #000;
+}
+
+.kurikulum .section-header.link:hover {
+  background: #2db6fa;
+}
+
+.kurikulum .header {
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin: 0;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.kurikulum h3 {
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-indent: 70px;
+  font-weight: 500;
+  margin-top: -10px;
+  color: #000;
+  /* text-transform: uppercase; */
+}
 /*--------------------------------------------------------------
 # News Section
 --------------------------------------------------------------*/
@@ -595,12 +659,13 @@ section {
 }
 
 .news h3 {
-  font-size: 13px;
+  font-size: 18px;
   letter-spacing: 1px;
-  font-weight: 700;
+  text-indent: 70px;
+  font-weight: 500;
   margin-top: 10px;
   color: #000;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 .news img {
@@ -615,6 +680,71 @@ section {
   background: url(../img/hero-bg.png) no-repeat;
   margin-top: 40px;
 }
+/*--------------------------------------------------------------
+# News-Full Section
+--------------------------------------------------------------*/
+.tv-full iframe{
+  width: 1000px;
+  height: 500px;
+  margin: 20px 0 20px;
+}
+
+.tv-full p {
+  margin: 10px 10px 10px 0;
+  /* padding: 10px 0 10px; */
+  line-height: 1cm;
+  font-size: 35px;
+  /* line-height: 22px; */
+  font-weight: 700;
+  color: #f68c09;
+}
+
+.tv-full .tgl{
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
+.tv-full .blog {
+  margin: 20px 0 10px 0;
+  padding: 0;
+  font-size: 49px;
+  line-height: 42px;
+  font-weight: 700;
+  color: #f68c09;
+}
+
+.tv-full .section-header p {
+  margin: 10px 0 -20px 0;
+  padding: 0;
+  font-size: 49px;
+  line-height: 42px;
+  font-weight: 700;
+  color: #000;
+}
+
+.tv-full .section-header.link:hover {
+  background: #2db6fa;
+}
+
+.tv-full .header {
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin: 0;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.tv-full h3 {
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-indent: 70px;
+  font-weight: 500;
+  margin-top: 10px;
+  color: #000;
+  /* text-transform:   lowercase; */
+}
+
 /*--------------------------------------------------------------
 # News-Full Section
 --------------------------------------------------------------*/
@@ -649,7 +779,7 @@ section {
 }
 
 .news-full .section-header p {
-  margin: 10px 0 0 0;
+  margin: 10px 0 -20px 0;
   padding: 0;
   font-size: 49px;
   line-height: 42px;
@@ -671,14 +801,15 @@ section {
 }
 
 .news-full h3 {
-  font-size: 13px;
+  font-size: 18px;
   letter-spacing: 1px;
   text-indent: 70px;
-  font-weight: 700;
+  font-weight: 500;
   margin-top: 10px;
   color: #000;
-  text-transform: uppercase;
+  /* text-transform:   lowercase; */
 }
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -688,6 +819,20 @@ section {
   height: 100vh;
   background: url(../img/hero-bg.png) no-repeat;
   background-size: cover;
+}
+
+.formulir{
+  background: url(../img/hero-bg.png) no-repeat;
+  margin-top: -58px;
+}
+
+.agenda {
+  background: url(../img/hero-bg.png) no-repeat;
+  margin-top: -58px;
+}
+
+.agenda .section-header{
+  margin-top: 50px;
 }
 
 .hero h1 {
@@ -722,8 +867,15 @@ section {
   transition: 0.3s;
 }
 
-.hero .btn-get-started:hover i {
-  transform: translateX(5px);
+/* .hero .btn-get-started:hover i {
+  transform: translateY(-7px);
+} */
+
+.hero .btn-get-started:hover {
+  transform: translateY(-7px);
+  background: #f68c09;
+  box-shadow: 0px 5px 30px #f68c09;
+
 }
 
 .hero .hero-img {
@@ -822,8 +974,10 @@ section {
   transition: 0.3s;
 }
 
-.about .btn-read-more:hover i {
-  transform: translateX(5px);
+.about .btn-read-more:hover {
+  transform: translateY(-7px);
+  background-color: #f68c09;
+  box-shadow: 0px 5px 25px #f68c09;
 }
 
 /*--------------------------------------------------------------
@@ -2442,7 +2596,7 @@ section {
 .contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #18d26e;
+  background: #f68c09;
   text-align: center;
   padding: 15px;
   margin-bottom: 24px;
@@ -2495,7 +2649,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #0bbe6b;
+  background: #f68c09;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -2504,7 +2658,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #f68c09;
+  background: #0b26be;
 }
 
 @keyframes animate-loading {

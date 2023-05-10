@@ -63,7 +63,7 @@
                         yang ingin ditanyakan dan disampaikan, kami siap membantu.</h2>
                 </header>
                 <form action="forms/contact.php" method="post" class="php-email-form"
-                    style="background-color: rgb(203, 253, 253); border-radius:25px">
+                    style="background-color: #0bbe6b; border-radius:25px">
                     <div class="pesan row gy-4 mt-2">
                         <div class="col-md-6">
                             <input type="text" name="name" class="form-control" placeholder="Nama Anda" required>
@@ -81,7 +81,7 @@
                             <div class="loading">Loading</div>
                             <div class="error-message"></div>
                             <div class="sent-message">Your message has been sent. Thank you!</div>
-                            <button type="submit">Send Message</button>
+                            <button type="submit" class="text-white" style="border-radius: 15px">Send Message</button>
                         </div>
                     </div>
                 </form>

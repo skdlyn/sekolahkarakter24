@@ -1,6 +1,6 @@
 @extends('layout.admin')
 @section('content')
-@section('content-title', 'Berita')
+@section('content-title', 'Detail Berita')
 <section class="news-full" id="news-full">
     <div class="container col-md-8">
         <header class="section-header">

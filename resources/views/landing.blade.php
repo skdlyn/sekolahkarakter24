@@ -1,7 +1,6 @@
 @extends('layout.admin')
 @section('content')
 @section('content-title', 'Home')
-
 <!-- ======= Hero Section ======= -->
 <section id="hero" class="hero d-flex align-items-center">
     <div class="container">
@@ -117,21 +116,21 @@
                 <p>DI <span class="sklh">SEKOLAH KARAKTER</span> 24 SURABAYA</p>
             </header>
             <div class="row">
-                <div class="col-lg-3 mt-4 mt-lg-0"" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-lg-3 mt-4 mt-lg-0"" data-aos="fade-up" data-aos-delay="200" data-tilt>
                     <div class="box">
                         <img src="{{ asset('assets/img/images/superior.png') }}" class="img-fluid" alt="">
                         <h3>Unggul</h3>
                         <p>Komitmen kami bersama anda untuk mendidik calon penerus bangsa yang bersaing dan cerdas.</p>
                     </div>
                 </div>
-                <div class="col-lg-3 mt-4 mt-lg-0"" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-lg-3 mt-4 mt-lg-0"" data-aos="fade-up" data-aos-delay="200" data-tilt>
                     <div class="box2">
                         <img src="{{ asset('assets/img/images/role.png') }}" class="img-fluid" alt="">
                         <h3>Berkarakter</h3>
                         <p>Mendidik calon penerus bangsa yang berbudi pekerti luhur.</p>
                     </div>
                 </div>
-                <div class="col-lg-3 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="400">
+                <div class="col-lg-3 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="400" data-tilt>
                     <div class="box3">
                         <img src="{{ asset('assets/img/images/award.png') }}" class="img-fluid text-white"
                             alt="">
@@ -140,7 +139,7 @@
                             yang terbaik.</p>
                     </div>
                 </div>
-                <div class="col-lg-3 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="600">
+                <div class="col-lg-3 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="600" data-tilt>
                     <div class="box4">
                         <img src="{{ asset('assets/img/images/team.png') }}" class="img-fluid" alt="">
                         <h3>Mendunia</h3>

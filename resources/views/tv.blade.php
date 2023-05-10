@@ -1,5 +1,6 @@
 @extends('layout.admin')
 @section('content')
+@section('content-title', 'TV 24')
 <section class="news" id="news">
     <div class="container col-md-8">
         <header class="section-header">
@@ -15,7 +16,7 @@
                     allowfullscreen></iframe> 
                 </div>
                 <div class="text bg-light p-4">
-                    <a href="" class="link"><p>Silaturrahim Alumni SDM24 Tahun 2010</p></a>
+                    <a href="/tv_lengkap" class="link"><p>Silaturrahim Alumni SDM24 Tahun 2010</p></a>
                     <span class="tgl">By Official / 24 Agustus 2023</span>                  <!-- <p class="subheading"><span>Class time:</span> 9:00am - 10am</p> -->
                     <h3>Separated they live in. A small river named Duden flows by their place and supplies it with the
                         necessary regelialia. It is a paradisematic country. Separated they live in. A small river named Duden flows by their place and supplies it with the
@@ -23,24 +24,7 @@
                 </div>
             </div>
             <hr>
-            <div class="col-md-12 mb-4 course d-lg-flex ftco-animate">
-                <div class="text bg-light p-4">
-                    <a href="" class="link"><p>Mempelajari Flora Gantung</p></a>
-                    <span class="tgl">By Official / 24 Agustus 2023</span>
-                    <!-- <p class="subheading"><span>Class time:</span> 9:00am - 10am</p> -->
-                    <h3>Separated they live in. A small river named Duden flows by their place and supplies it with the
-                        necessary regelialia. It is a paradisematic country. Separated they live in. A small river named Duden flows by their place and supplies it with the
-                        necessary regelialia. It is a paradisematic country</h3>
-                </div>
-                <div class="videos">
-                    <iframe width="500px" height="300px" src="https://www.youtube.com/embed/B1Rxlu0rzPI"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen></iframe> 
-                </div>
-            </div>
-            <hr>
-            <div class="col-md-12 mb-4 course d-lg-flex ftco-animate">
+            <div class="col-lg- mb-4 course d-lg-flex ftco-animate">
                 <div class="videos">
                     <iframe width="500px" height="300px" src="https://www.youtube.com/embed/B1Rxlu0rzPI"
                     title="YouTube video player" frameborder="0"
@@ -48,29 +32,43 @@
                     allowfullscreen></iframe> 
                 </div>
                 <div class="text bg-light p-4">
-                    <a href="" class="link"><p>Profil Sekolah Karakter SD Muhammadiyah 24 Surabaya</p></a>
-                    <span class="tgl">By Official / 24 Agustus 2023</span>
-                    <!-- <p class="subheading"><span>Class time:</span> 9:00am - 10am</p> -->
+                    <a href="/tv_lengkap" class="link"><p>Silaturrahim Alumni SDM24 Tahun 2010</p></a>
+                    <span class="tgl">By Official / 24 Agustus 2023</span>                  <!-- <p class="subheading"><span>Class time:</span> 9:00am - 10am</p> -->
                     <h3>Separated they live in. A small river named Duden flows by their place and supplies it with the
                         necessary regelialia. It is a paradisematic country. Separated they live in. A small river named Duden flows by their place and supplies it with the
                         necessary regelialia. It is a paradisematic country</h3>
                 </div>
             </div>
             <hr>
-            <div class="col-md-12 mb-4 course d-lg-flex ftco-animate">
-                <div class="text bg-light p-4">
-                    <a href="" class="link"><p>Sekolah Karakter Gelar Wisuda Khotmil Wa Tahfidzil Quran secara Hybird</p></a>
-                    <span class="tgl">By Official / 24 Agustus 2023</span>
-                    <!-- <p class="subheading"><span>Class time:</span> 9:00am - 10am</p> -->
-                    <h3>Separated they live in. A small river named Duden flows by their place and supplies it with the
-                        necessary regelialia. It is a paradisematic country. Separated they live in. A small river named Duden flows by their place and supplies it with the
-                        necessary regelialia. It is a paradisematic country.</h3>
-                </div>
+            <div class="col-lg- mb-4 course d-lg-flex ftco-animate">
                 <div class="videos">
                     <iframe width="500px" height="300px" src="https://www.youtube.com/embed/B1Rxlu0rzPI"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen></iframe> 
+                </div>
+                <div class="text bg-light p-4">
+                    <a href="/tv_lengkap" class="link"><p>Silaturrahim Alumni SDM24 Tahun 2010</p></a>
+                    <span class="tgl">By Official / 24 Agustus 2023</span>                  <!-- <p class="subheading"><span>Class time:</span> 9:00am - 10am</p> -->
+                    <h3>Separated they live in. A small river named Duden flows by their place and supplies it with the
+                        necessary regelialia. It is a paradisematic country. Separated they live in. A small river named Duden flows by their place and supplies it with the
+                        necessary regelialia. It is a paradisematic country</h3>
+                </div>
+            </div>
+            <hr>
+            <div class="col-lg- mb-4 course d-lg-flex ftco-animate">
+                <div class="videos">
+                    <iframe width="500px" height="300px" src="https://www.youtube.com/embed/B1Rxlu0rzPI"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe> 
+                </div>
+                <div class="text bg-light p-4">
+                    <a href="/tv_lengkap" class="link"><p>Silaturrahim Alumni SDM24 Tahun 2010</p></a>
+                    <span class="tgl">By Official / 24 Agustus 2023</span>                  <!-- <p class="subheading"><span>Class time:</span> 9:00am - 10am</p> -->
+                    <h3>Separated they live in. A small river named Duden flows by their place and supplies it with the
+                        necessary regelialia. It is a paradisematic country. Separated they live in. A small river named Duden flows by their place and supplies it with the
+                        necessary regelialia. It is a paradisematic country</h3>
                 </div>
             </div>
         </div>

@@ -1,5 +1,6 @@
 @extends('layout.admin')
 @section('content')
+@section('content-title', 'Beranda 24')
     <section class="trending" id="trending">
         <div class="container" data-aos="fade-up">
             <header class="section-header">
@@ -138,15 +139,15 @@
                 <div class="col-lg-4">
                     <div class="post-box">
                         <div class="post-img">
-                            {{-- <iframe width="100%" src="https://www.youtube.com/embed/B1Rxlu0rzPI"
+                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/k14_9WD4idM"
                                 title="YouTube video player" frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                allowfullscreen></iframe> --}}
-                            <img src="{{ asset('assets/img/images/course-1.jpg') }}" alt="" srcset="">
+                                allowfullscreen></iframe>
+                            {{-- <img src="{{ asset('assets/img/images/course-1.jpg') }}" alt="" srcset=""> --}}
                         </div>
                         <span class="post-date">4 Oktober 2022</span>
                         <h3 class="post-title">Siswa Kelas 4 Belajar Ragam Flora Tanaman</h3>
-                        <a href="https://www.youtube.com/embed/B1Rxlu0rzPI"
+                        <a href="/tv_lengkap"
                             class="readmore stretched-link mt-auto"><span>Tonton Video</span><i
                                 class="bi bi-arrow-right"></i></a>
                     </div>
@@ -154,15 +155,14 @@
                 <div class="col-lg-4">
                     <div class="post-box">
                         <div class="post-img">
-                            {{-- <iframe width="100%" src="https://www.youtube.com/embed/B1Rxlu0rzPI"
+                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/k14_9WD4idM"
                                 title="YouTube video player" frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                allowfullscreen></iframe> --}}
-                            <img src="{{ asset('assets/img/images/course-1.jpg') }}" alt="" srcset="">
+                                allowfullscreen></iframe>
                         </div>
                         <span class="post-date">4 Oktober 2022</span>
                         <h3 class="post-title">KTS Dengan Tema Ragam Flora Gantung</h3>
-                        <a href="https://www.youtube.com/embed/B1Rxlu0rzPI"
+                        <a href="/tv_lengkap"
                             class="readmore stretched-link mt-auto"><span>Tonton Video</span><i
                                 class="bi bi-arrow-right"></i></a>
                     </div>
@@ -170,15 +170,14 @@
                 <div class="col-lg-4">
                     <div class="post-box">
                         <div class="post-img">
-                            {{-- <iframe width="100%" src="https://www.youtube.com/embed/B1Rxlu0rzPI"
+                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/k14_9WD4idM"
                                 title="YouTube video player" frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                allowfullscreen></iframe> --}}
-                            <img src="{{ asset('assets/img/images/course-1.jpg') }}" alt="" srcset="">
+                                allowfullscreen></iframe>
                         </div>
                         <span class="post-date">4 Oktober 2022</span>
                         <h3 class="post-title">Siswa Kelas 5 Menikmati Belajar di Luar Kelas</h3>
-                        <a href="https://www.youtube.com/embed/B1Rxlu0rzPI"
+                        <a href="/tv_lengkap"
                             class="readmore stretched-link mt-auto"><span>Tonton Video</span><i
                                 class="bi bi-arrow-right"></i></a>
                     </div>

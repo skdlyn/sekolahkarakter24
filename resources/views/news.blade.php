@@ -1,5 +1,6 @@
 @extends('layout.admin')
 @section('content')
+@section('content-title', '24 NEWS')
 <section class="news" id="news">
     <div class="container col-md-8">
         <header class="section-header">
