@@ -1,7 +1,7 @@
 @extends('layout.admin')
 @section('content')
     <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
+    <section id="contact-page" class="contact-page">
         <div class="container" data-aos="fade-up">
             <header class="section-header">
                 <h2>Contact</h2>
@@ -41,7 +41,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="card" style="width: 40rem; height:535px; border-radius:25px">
+                    <div class="lokasi card" style="width: 40rem; height:535px; border-radius:25px">
                         <div class="card-header bg-warning text-white" style="border-radius:25px 25px 0px 0px">
                             Lokasi Kami
                         </div>
@@ -81,7 +81,7 @@
                             <div class="loading">Loading</div>
                             <div class="error-message"></div>
                             <div class="sent-message">Your message has been sent. Thank you!</div>
-                            <button type="submit" class="text-white" style="border-radius: 15px">Send Message</button>
+                            <button type="submit" style="border-radius: 15px">Send Message</button>
                         </div>
                     </div>
                 </form>

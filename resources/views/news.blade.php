@@ -47,8 +47,8 @@
             </div>
             <hr>
             <div class="col-md-12 mb-4 course d-lg-flex ftco-animate">
-                <div class="img"><img src="{{ asset('assets/img/images/course-4.jpg') }}" alt=""
-                        srcset="/news_lengkap"></div>
+                <div class="img"><img src="{{ asset('assets/img/images/course-3.jpg') }}" alt=""
+                        srcset=""></div>
                 <div class="text bg-light p-4">
                     <a href="" class="link"><p>Sekolah Karakter Gelar Wisuda Khotmil Wa Tahfidzil Quran secara Hybird</p></a>
                     <span class="tgl">By Official / 24 Agustus 2023</span>

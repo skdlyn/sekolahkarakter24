@@ -8,7 +8,9 @@
             <p>BERITA <span class="blog">24</span></p>
         </header>
         <div class="row">
-            <div class="col-md-12 mb-4 course d-lg-flex ftco-animate">
+            <div class="card">
+                <div class="card-body">
+            <div class="col-md-12 sm-12 mb-4 course d-lg-flex ftco-animate justify-content-center">
                 <div class="text bg-light p-4">
                     <a href="" class="link"><p>Silaturrahim Alumni SDM24 Tahun 2010</p></a>
                     <div class="img">
@@ -37,4 +39,7 @@
                         <br>
                         Penulis Salman Alfarisi | Liputan Salman Alfarisi Kontributor  di Sekolah Karakter SD Muhammadiyah 24 Surabaya dalam peringatan hari pahlawan tahun 2022.</h3>
                 </div>
+                                    
+            </div>
+        </div>
             </div>@endsection

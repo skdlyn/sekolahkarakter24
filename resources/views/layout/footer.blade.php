@@ -22,8 +22,8 @@
             <ul>
               <li><i class="bi bi-chevron-right"></i> <a href="/">Home</a></li>
               <li><i class="bi bi-chevron-right"></i> <a href="/profile">Profile</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Kurikulum</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Berita</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="/kurikulum">Kurikulum</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="/berita">Berita</a></li>
               <li><i class="bi bi-chevron-right"></i> <a href="/ppdb">PPDB</a></li>
             </ul>
           </div>

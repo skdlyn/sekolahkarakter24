@@ -46,9 +46,96 @@ h6 {
   
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background: linear-gradient(to right, rgba(246, 211, 101, 1), rgba(253, 160, 133, 1))
+
+/*--------------------------------------------------------------
+# Spinner
+--------------------------------------------------------------*/
   }
-
-
+  .lds-roller {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+  }
+  .lds-roller div {
+    animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    transform-origin: 40px 40px;
+  }
+  .lds-roller div:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #fff;
+    margin: -4px 0 0 -4px;
+  }
+  .lds-roller div:nth-child(1) {
+    animation-delay: -0.036s;
+  }
+  .lds-roller div:nth-child(1):after {
+    top: 63px;
+    left: 63px;
+  }
+  .lds-roller div:nth-child(2) {
+    animation-delay: -0.072s;
+  }
+  .lds-roller div:nth-child(2):after {
+    top: 68px;
+    left: 56px;
+  }
+  .lds-roller div:nth-child(3) {
+    animation-delay: -0.108s;
+  }
+  .lds-roller div:nth-child(3):after {
+    top: 71px;
+    left: 48px;
+  }
+  .lds-roller div:nth-child(4) {
+    animation-delay: -0.144s;
+  }
+  .lds-roller div:nth-child(4):after {
+    top: 72px;
+    left: 40px;
+  }
+  .lds-roller div:nth-child(5) {
+    animation-delay: -0.18s;
+  }
+  .lds-roller div:nth-child(5):after {
+    top: 71px;
+    left: 32px;
+  }
+  .lds-roller div:nth-child(6) {
+    animation-delay: -0.216s;
+  }
+  .lds-roller div:nth-child(6):after {
+    top: 68px;
+    left: 24px;
+  }
+  .lds-roller div:nth-child(7) {
+    animation-delay: -0.252s;
+  }
+  .lds-roller div:nth-child(7):after {
+    top: 63px;
+    left: 17px;
+  }
+  .lds-roller div:nth-child(8) {
+    animation-delay: -0.288s;
+  }
+  .lds-roller div:nth-child(8):after {
+    top: 56px;
+    left: 12px;
+  }
+  @keyframes lds-roller {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
 /*--------------------------------------------------------------
 # Quotes
 --------------------------------------------------------------*/
@@ -253,7 +340,7 @@ section {
   justify-content: space-between;
   padding: 10px 0 10px 30px;
   font-family: "Nunito", sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 700;
   color: #0bbe6b;
   white-space: nowrap;
@@ -262,7 +349,7 @@ section {
 
 .navbar a i,
 .navbar a:focus i {
-  font-size: 12px;
+  font-size: 18px;
   line-height: 0;
   margin-left: 5px;
 }
@@ -545,13 +632,41 @@ section {
   height: 100%;
 }
 
+/*--------------------------------------------------------------
+# Formulir Section
+--------------------------------------------------------------*/
+.daftar {
+  background: url(../img/images/k1.jpg);
+  background-size:cover;
+  margin-top: -50px;
+}
+
+.daftar button[type=submit] {
+  background: #0bbe6b;
+  margin-top: 20px;
+  box-shadow: 0px 5px 30px #079251;
+  border: 0;
+  padding: 10px 30px;
+  color: #fff;
+  transition: 0.4s;
+  width: 250px;
+  justify-content: flex-end;
+  border-radius: 4px;
+}
+
+.daftar button[type=submit]:hover {
+  transform: translateY(-7px);
+  background: #f68c09;
+  box-shadow: 0px 5px 30px #f68c09;
+}
 
 /*--------------------------------------------------------------
 # Kurikulum Section
 --------------------------------------------------------------*/
 .kurikulum {
   background: url(../img/images/k1.jpg);
-  background-size:contain;
+  background-size:cover;
+  margin-top: -50px;
 }
 
 .kurikulum p {
@@ -576,6 +691,10 @@ section {
   line-height: 42px;
   font-weight: 700;
   color: #f68c09;
+}
+
+.kurikulum .section-header{
+  margin-top: 50px;
 }
 
 .kurikulum .section-header p {
@@ -683,6 +802,11 @@ section {
 /*--------------------------------------------------------------
 # News-Full Section
 --------------------------------------------------------------*/
+.tv-full {
+  background: url(../img/images/k1.jpg) no-repeat;
+  background-size: cover;
+  margin-top: -58px;
+}
 .tv-full iframe{
   width: 1000px;
   height: 500px;
@@ -693,10 +817,16 @@ section {
   margin: 10px 10px 10px 0;
   /* padding: 10px 0 10px; */
   line-height: 1cm;
+  text-align: center;
   font-size: 35px;
   /* line-height: 22px; */
   font-weight: 700;
   color: #f68c09;
+}
+
+.tv-full .card{
+  border-radius: 15px;
+  background-color: #f4f766;
 }
 
 .tv-full .tgl{
@@ -713,12 +843,17 @@ section {
   color: #f68c09;
 }
 
+.tv-full .section-header{
+  margin-top: 58px;
+}
+
 .tv-full .section-header p {
   margin: 10px 0 -20px 0;
   padding: 0;
   font-size: 49px;
   line-height: 42px;
   font-weight: 700;
+  text-align: center;
   color: #000;
 }
 
@@ -740,7 +875,7 @@ section {
   letter-spacing: 1px;
   text-indent: 70px;
   font-weight: 500;
-  margin-top: 10px;
+  margin-top: 40px;
   color: #000;
   /* text-transform:   lowercase; */
 }
@@ -748,6 +883,21 @@ section {
 /*--------------------------------------------------------------
 # News-Full Section
 --------------------------------------------------------------*/
+.news-full {
+  background: url(../img/images/k1.jpg) no-repeat;
+  background-size: cover;
+  margin-top: -58px;
+}
+
+.news-full .card{
+  border-radius: 15px;
+  background-color: #f4f766;
+}
+
+.news-full .section-header{
+  margin-top: 58px;
+}
+
 .news-full img{
   width: 1000px;
   height: 100%;
@@ -762,6 +912,7 @@ section {
   /* line-height: 22px; */
   font-weight: 700;
   color: #f68c09;
+  text-align: center;
 }
 
 .news-full .tgl{
@@ -2295,6 +2446,11 @@ section {
 /*--------------------------------------------------------------
 # Tending 24
 --------------------------------------------------------------*/
+.trending {
+  background: url(../img/hero-bg.png) no-repeat;
+  background-size: cover;
+  margin-top: -58px;
+}
 .color1 {
   background: #ffe7e6;
 }
@@ -2649,7 +2805,8 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #f68c09;
+  background: #0bbe6b;
+  box-shadow: 0px 5px 30px #079251;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -2658,8 +2815,169 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #0b26be;
+  transform: translateY(-7px);
+  background: #f68c09;
+  box-shadow: 0px 5px 30px #f68c09;
 }
+
+@keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/*--------------------------------------------------------------
+# Contact-Page
+--------------------------------------------------------------*/
+.contact-page {
+  padding-bottom: -100  px;
+}
+.contact-page .info-box {
+  color: #444444;
+  border-radius: 25px;
+  background: blanchedalmond;
+  padding: 30px;
+}
+
+.contact-page .section-header{
+  margin-top: 65px;
+}
+
+.contact-page {
+  /* background-image: url(../img/images/bg5.jpg); */
+  background: url(../img/images/hero-bg.jpg) no-repeat;
+  background-size: cover;
+  margin-top: -58px;
+  isolation: isolate;
+  position: re;
+}
+
+.contact-page::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  background: white;
+  opacity: .5
+}
+
+.contact-page .cus{
+  color: #f68c09;
+}
+
+.contact-page .info-box i {
+  font-size: 38px;
+  line-height: 0;
+  color: #000;
+}
+
+.contact-page .info-box h3 {
+  font-size: 20px;
+  color: #000;
+  font-weight: 700;
+  margin: 20px 0 10px 0;
+}
+
+.contact-page .info-box p {
+  padding: 0;
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.contact-page .php-email-form {
+  background: #fafbff;
+  padding: 30px;
+  height: 100%;
+  margin-top: 30px;
+}
+
+.contact-page .php-email-form .error-message {
+  display: none;
+  color: #fff;
+  background: #ed3c0d;
+  text-align: left;
+  padding: 15px;
+  margin-bottom: 24px;
+  font-weight: 600;
+}
+
+.contact-page .php-email-form .sent-message {
+  display: none;
+  color: #fff;
+  background: #f68c09;
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 24px;
+  font-weight: 600;
+}
+
+.contact-page .php-email-form .loading {
+  display: none;
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 24px;
+}
+
+.contact-page .h{
+  color: #f68c09;
+}
+
+.contact-page .php-email-form .loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid #18d26e;
+  border-top-color: #eee;
+  animation: animate-loading 1s linear infinite;
+}
+
+.contact-page .php-email-form input,
+.contact-page .php-email-form textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+  border-radius: 0;
+}
+
+.contact-page .php-email-form input:focus,
+.contact-page .php-email-form textarea:focus {
+  border-color: #4154f1;
+}
+
+.contact-page .php-email-form input {
+  padding: 10px 15px;
+}
+
+.contact-page .php-email-form textarea {
+  padding: 12px 15px;
+}
+
+.contact-page .php-email-form button[type=submit] {
+  background: #f68c09;
+  box-shadow: 0px 5px 30px #f68c09;
+  border: 0;
+  padding: 10px 30px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.contact-page .php-email-form button[type=submit]:hover {
+  transform: translateY(-7px);
+  background: #f4f766;
+  box-shadow: 0px 5px 30px #f4f766;
+  color: #000;
+}
+
 
 @keyframes animate-loading {
   0% {

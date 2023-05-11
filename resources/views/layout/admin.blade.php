@@ -27,6 +27,7 @@
             <!-- Main content -->
             <section class="content">
                 @yield('content')
+                <div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
                 {{-- @include('refactor.about') --}}
             </section>
             <!-- /.content -->
