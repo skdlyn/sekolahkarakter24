@@ -11,11 +11,9 @@
             <div class="card">
                 <div class="card-body">
             <div class="col-md-12 sm-12 mb-4 course d-lg-flex ftco-animate justify-content-center">
-                <div class="text bg-light p-4">
-                    <a href="" class="link"><p>Silaturrahim Alumni SDM24 Tahun 2010</p></a>
-                    <div class="img">
-                        <img src="{{ asset('assets/img/images/course-1.jpg') }}" alt="" srcset="" width="500px" height="500px">
-                    </div>
+                <div class="container-fluid bg-light">
+                    <a href="" class="link mb-20"><p>Silaturrahim Alumni SDM24 Tahun 2010</p></a>
+                        <img class="img-fluid" src="{{ asset('assets/img/images/course-1.jpg') }}" alt="" style="height: 400px">
                     <span class="tgl">By Official / 24 Agustus 2023</span>                  <!-- <p class="subheading"><span>Class time:</span> 9:00am - 10am</p> -->
                     <h3>Sekolah Karakter SD Muhammadiyah 24 Surabaya melaksanakan kegiatan semarak peringatan hari pahlawan dengan berbagai kegiatan yang dapat menumbuhkan nilai-nilai karakter bagi generasi bangsa khusus bagi siswa SDM 24 Surabaya. Kegiatan diikuti 400 siswa dan dilaksanakan di 3 kampus Sekolah Karakter SDM 24 Surabaya, Kamis (10/11/2022).
                         <br>

@@ -1,13 +1,11 @@
  <!-- ======= Footer ======= -->
  <footer id="footer" class="footer">
-    <div class="footer-top">
+    <div class="footer-top text-center">
       <div class="container">
         <div class="row gy-4">
           <div class="col-lg-7 col-md-12 footer-info">
-            <a href="index.html" class="logo d-flex align-items-center">
               <img src="{{ asset('assets/img/images/header-logo.png')}}" alt="">
-              <span>SEKOLAH KARAKTER 24</span>
-            </a>
+              <h3 class="text-white text-center fw-bold">SEKOLAH KARAKTER 24</h3>
             <p class="text-white">CONTACT WITH US</p>
             <div class="social-links mt-3">
               <a href="https://twitter.com/sdm24ketintang" class="twitter"><i class="bi bi-twitter"></i></a>
@@ -17,7 +15,7 @@
             </div>
           </div>
 
-          <div class="col-lg-2 col-6 footer-links">
+          <div class="col-lg-2 col-sm-12 footer-links text-center">
             <h4>Useful Links</h4>
             <ul>
               <li><i class="bi bi-chevron-right"></i> <a href="/">Home</a></li>

@@ -725,8 +725,18 @@ section {
   /* text-transform: uppercase; */
 }
 /*--------------------------------------------------------------
-# News Section
+# News Section  
 --------------------------------------------------------------*/
+.news {
+  background: url(../img/images/29.jpg) no-repeat;
+  background-size: cover;
+  margin-top: -58px;
+}
+
+.news .section-header{
+  margin-top: 50px;
+}
+
 .news p {
   margin: 10px 10px 10px 0;
   /* padding: 10px 0 10px; */
@@ -1861,8 +1871,8 @@ section {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  color: #4154f1;
-  border-color: #4154f1;
+  color: #f68c09;
+  border-color: #f68c09;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -1940,12 +1950,12 @@ section {
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
   font-size: 20px;
-  color: #012970;
+  color: #f68c09;
   font-weight: 700;
 }
 
 .portfolio .portfolio-wrap .portfolio-info p {
-  color: #012970;
+  color: #f68c09;
   font-weight: 600;
   font-size: 14px;
   text-transform: uppercase;
@@ -1964,7 +1974,7 @@ section {
 
 .portfolio .portfolio-wrap .portfolio-links a {
   color: #fff;
-  background: #4154f1;
+  background: #f68c09;
   margin: 10px 2px;
   width: 36px;
   height: 36px;
@@ -1981,7 +1991,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  background: #5969f3;
+  background: #f68c09;
 }
 
 .portfolio .portfolio-wrap:hover img {
@@ -2845,7 +2855,8 @@ section {
 
 .contact-page {
   /* background-image: url(../img/images/bg5.jpg); */
-  background: url(../img/images/hero-bg.jpg) no-repeat;
+  background: url(../img/images/hero-bg2.jpg) no-repeat;
+  background-color: rgba(245, 245, 245, 0.4); 
   background-size: cover;
   margin-top: -58px;
   isolation: isolate;
@@ -3569,6 +3580,10 @@ section {
     background-position: center bottom;
   }
 }
+
+/* @media (max-width: 922px) {
+
+} */
 
 .footer .footer-top .footer-info {
   margin-bottom: 30px;

@@ -4,7 +4,7 @@
 <section class="daftar" id="daftar">
     <div class="row justify-content-center">
         <div class="col-lg-10 " style="padding: 30px; margin-top:58px;">
-            <div class="card" style="border-radius: 15px; border-color:darkorange">
+            <div class="card" style="border-radius: 15px; border-color:darkorange; background-color: rgba(245, 245, 245, 0.9);">
                 <div class="card-body">
                     <form>
                         <header class="section-header">
