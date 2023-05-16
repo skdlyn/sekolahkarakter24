@@ -5,11 +5,11 @@
     <div class="row justify-content-center">
         <div class="col-lg-10 " style="padding: 30px; margin-top:58px;">
             <div class="card"
-                style="border-radius: 15px; border-color:darkorange; background-color: rgba(245, 245, 245, 0.9);">
+                style="border-radius: 15px; border-color:darkorange; background-color: rgba(255, 255, 255, 0.25); backdrop-filter:blur(15px);">
                 <div class="card-body">
                     <form>
                         <header class="section-header">
-                            <p>Data <span class="blog" style="color: darkorange">Diri</span></p>
+                            <p>Data <span class="blog" style="color: #539165">Diri</span></p>
                         </header>
                         <div class="row" style="padding: 0px 30px 0px 30px">
                             <div class="col-md-6 mb-4">
@@ -73,7 +73,7 @@
                             </div>
                             <hr>
                             <header class="section-header">
-                                <p>Data <span class="blog" style="color: darkorange">Alamat Asal</span></p>
+                                <p>Data <span class="blog" style="color: #539165">Alamat Asal</span></p>
                             </header>
                             <div class="row" style="padding: 0px 30px 0px 30px">
                                 <div class="col-md-8 mb-4">
@@ -121,7 +121,7 @@
                             </div>
                             <hr>
                             <header class="section-header">
-                                <p>Pilihan <span class="blog" style="color: darkorange">Program Pendidikan</span>
+                                <p>Pilihan <span class="blog" style="color: #539165">Program Pendidikan</span>
                                 </p>
                             </header>
                             <div class="row" style="padding: 0px 30px 0px 30px">
@@ -137,7 +137,7 @@
                                 </div>
                             </div>
                             <div class="d-grid gap-2">
-                                <button type="submit" class="btn">Kirim Data Calon Peserta Didik</button>
+                                <button class="btn btn-daftar" type="button">Kirim Data</button>
                             </div>
                         </div>
                     </form>
