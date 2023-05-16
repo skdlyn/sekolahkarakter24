@@ -82,8 +82,8 @@
                                 </div>
                             </div>
                             <div class="text-center d-grid gap-2" style="margin: 30px">
-                                <a href="/formulir" class="btn-konfirmasi btn-block">
-                                    <span class="keterangan">Daftar Kelas</span>
+                                <a href="https://wa.me/6282131502424" class="btn-konfirmasi btn-block">
+                                    <span class="keterangan">Konfirmasi Pembayaran Formulir</span>
                                     <i class="bi bi-arrow-right"></i>
                                 </a>
                                 <a href="/formulir" class="btn-daftar-kelas btn-block">
