@@ -8,45 +8,49 @@
                 <p>KONTAK <span class="cus">KAMI</span></p>
             </header>
             <div class="row gy-4">
-                <div class="col-lg-6">
+                <div class="col-lg-7">
                     <div class="row gy-4">
                         <div class="col-md-6">
                             <div class="info-box">
-                                <i class="bi bi-geo-alt"></i>
-                                <h3>Address</h3>
-                                <p>Jl. Ketintang No.45,<br>Surabaya, Jawa Timur</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span><i class="fas fa-map-marker-alt"></i>  Alamat</span>
+                                </div>
+                                <p>Jl. Ketintang No.45 Surabaya, Jawa Timur</p>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="info-box">
-                                <i class="bi bi-telephone"></i>
-                                <h3>Contact Number</h3>
-                                <p>+6231 827 4477<br><br></p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span><i class="fas fa-phone"></i>  Nomor Telepon</span>
+                                </div>
+                                <p>+6231 827 4477</p>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="info-box">
-                                <i class="bi bi-envelope"></i>
-                                <h3>Email Us</h3>
-                                <p>sdmuhammadiyah24sby@gmail.com<br><br></p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span><i class="fas fa-map-marker-alt"></i>  Jam Operasional</span>
+                                </div>
+                                <p class="lh-lg">Senin - Sabtu, Pukul 07:00 - 16:00 WIB</p>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="info-box">
-                                <i class="bi bi-clock"></i>
-                                <h3>Open Hours</h3>
-                                <p>Senin - Sabtu<br>07:00 - 16:00 WIB</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span><i class="fas fa-envelope"></i>  E-Mail</span>
+                                </div>
+                                <p>sdmuhammadiyah24sby@gmail.com</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-5">
                     <div class="lokasi card"  style="border-radius:25px">
                         <div class="card-header text-dark" style="border-radius:25px 25px 0px 0px; background-color:#9CF0B9">
                             Lokasi Kami
                         </div>
                         <div class="card-body">
-                            <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
+                            <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 150px">
                                 <iframe
                                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.405043384314!2d112.72622349999999!3d-7.3083106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fb7808dc2965%3A0xfaa47b5206776fec!2sJl.%20Ketintang%20No.45%2C%20Wonokromo%2C%20Kec.%20Gayungan%2C%20Kota%20SBY%2C%20Jawa%20Timur%2060243!5e0!3m2!1sid!2sid!4v1683245933871!5m2!1sid!2sid"
                                     width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"

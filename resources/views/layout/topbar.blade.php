@@ -9,16 +9,17 @@
 
         <nav id="navbar" class="navbar">
             <ul>
-                <li><a class="nav-link scrollto" href="/">Home</a></li>
-                <li><a class="nav-link scrollto" href="/profile">Profile</a></li>
-                <li class="dropdown"><a href="#"><span>Kurikulum</span> <i class="bi bi-chevron-down"></i></a>
+                <li><a class="nav-link scrollto" href="/">Beranda</a></li>
+                {{-- <li><a class="nav-link scrollto" href="/profile">Profil</a></li> --}}
+                <li class="dropdown"><a href="/profile"><span>Profil</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
-                        <li><a href="/kurikulum">Kurikulum</a></li>
-                        <li><a href="#">Debest</a></li>
-                        <li><a href="#">Semai Binrang Karakter</a></li>
-                        <li><a href="#">7 Kompetensi</a></li>
+                        <li><a href="/profile">Profil</a></li>
+                        <li><a href="/mengapa">Mengapa 24</a></li>
+                        <li><a href="/visi">Visi Misi</a></li>
+                        <li><a href="ptk">PTK 24</a></li>
                     </ul>
                 </li>
+                <li><a class="nav-link scrollto" href="/Kurikulum">Kurikulum</a></li>
                 <li class="dropdown"><a href="#"><span>Berita</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
                         <li><a href="/berita">BERITA</a></li>

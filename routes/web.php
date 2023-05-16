@@ -69,4 +69,15 @@ Route::get('/debest', function () {
     return view('debest');
 });
 
+Route::get('/visi', function () {
+    return view('visi');
+});
+
+Route::get('/ptk', function () {
+    return view('ptk');
+});
+
+Route::get('/mengapa', function () {
+    return view('mengapa');
+});
 

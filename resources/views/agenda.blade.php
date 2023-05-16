@@ -15,6 +15,10 @@
                             <img src="{{ asset('assets/img/images/course-1.jpg') }}" alt="" width="100%"
                             height="100%" style="border-radius: 15px">
                         </a>
+                        <div class="p-2 mt-2 d-flex justify-content-between align-items-center" style="background-color: #eee;">
+                            <span><i class="fas fa-user-alt"></i>  By Official</span>
+                            <span><i class="fas fa-calendar-alt"></i>  24 Agustus 2023</span>
+                        </div>
                         <h3 class="heading"><a href="/agenda_lengkap">Pendaftaran Tenaga Pendidik 2022 – 2023</a></h3>
                         <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
                             there live the blind texts.</p>
@@ -35,6 +39,10 @@
                             <img src="{{ asset('assets/img/images/course-1.jpg') }}" alt="" width="100%"
                             height="100%"  style="border-radius: 15px">
                         </a>
+                        <div class="p-2 mt-2 d-flex justify-content-between align-items-center" style="background-color: #eee;">
+                            <span><i class="fas fa-user-alt"></i>  By Official</span>
+                            <span><i class="fas fa-calendar-alt"></i>  24 Agustus 2023</span>
+                        </div>
                         <h3 class="heading"><a href="/agenda_lengkap">Pendaftaran Tenaga Pendidik 2022 – 2023</a></h3>
                         <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
                             there live the blind texts.</p>
@@ -55,6 +63,10 @@
                             <img src="{{ asset('assets/img/images/course-1.jpg') }}" alt="" width="100%"
                             height="100%"  style="border-radius: 15px">
                         </a>
+                        <div class="p-2 mt-2 d-flex justify-content-between align-items-center" style="background-color: #eee;">
+                            <span><i class="fas fa-user-alt"></i>  By Official</span>
+                            <span><i class="fas fa-calendar-alt"></i>  24 Agustus 2023</span>
+                        </div>
                         <h3 class="heading"><a href="/agenda_lengkap">Skills To Develop Your Child Memory</a></h3>
                         <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
                             there live the blind texts.</p>
@@ -75,6 +87,10 @@
                             <img src="{{ asset('assets/img/images/course-1.jpg') }}" alt="" width="100%"
                             height="100%"  style="border-radius: 15px">
                         </a>
+                        <div class="p-2 mt-2 d-flex justify-content-between align-items-center" style="background-color: #eee;">
+                            <span><i class="fas fa-user-alt"></i>  By Official</span>
+                            <span><i class="fas fa-calendar-alt"></i>  24 Agustus 2023</span>
+                        </div>
                         <h3 class="heading"><a href="/agenda_lengkap">Skills To Develop Your Child Memory</a></h3>
                         <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
                             there live the blind texts.</p>
@@ -95,6 +111,10 @@
                             <img src="{{ asset('assets/img/images/course-1.jpg') }}" alt="" width="100%"
                             height="100%"  style="border-radius: 15px">
                         </a>
+                        <div class="p-2 mt-2 d-flex justify-content-between align-items-center" style="background-color: #eee;">
+                            <span><i class="fas fa-user-alt"></i>  By Official</span>
+                            <span><i class="fas fa-calendar-alt"></i>  24 Agustus 2023</span>
+                        </div>
                         <h3 class="heading"><a href="/agenda_lengkap">Skills To Develop Your Child Memory</a></h3>
                         <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
                             there live the blind texts.</p>
@@ -115,6 +135,10 @@
                             <img src="{{ asset('assets/img/images/course-1.jpg') }}" alt="" width="100%"
                             height="100%"  style="border-radius: 15px">
                         </a>
+                        <div class="p-2 mt-2 d-flex justify-content-between align-items-center" style="background-color: #eee;">
+                            <span><i class="fas fa-user-alt"></i>  By Official</span>
+                            <span><i class="fas fa-calendar-alt"></i>  24 Agustus 2023</span>
+                        </div>
                         <h3 class="heading"><a href="/agenda_lengkap">Skills To Develop Your Child Memory</a></h3>
                         <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
                             there live the blind texts.</p>

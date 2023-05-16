@@ -41,26 +41,13 @@
                                         placeholder="Masukkan Tempat Lahir">
                                 </div>
                             </div>
-                            <div class="col-md-4 mb-4">
-                                <h6 class="mb-2 pb-1">Jenis Kelamin : </h6>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
-                                        id="femaleGender" value="option1">
-                                    <label class="form-check-label" for="femaleGender">Perempuan</label>
-                                </div>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
-                                        id="maleGender" value="option2">
-                                    <label class="form-check-label" for="maleGender">Laki - Laki</label>
-                                </div>
-                            </div>
-                            <div class="col-md-6 mb-4 d-flex align-items-center">
+                            <div class="col-md-4 mb-4 d-flex align-items-center">
                                 <div class="form-outline datepicker w-100">
-                                    <label for="wni" class="form-label">Kewarganegaraan</label>
+                                    <label for="wni" class="form-label">Jenis Kelamin</label>
                                     <select class="form-select form-control">
-                                        <option>Kewarganegaraan</option>
-                                        <option value="WNI">WNI</option>
-                                        <option value="WNA">WNA</option>
+                                        <option>Pilih Jenis Kelamn</option>
+                                        <option value="WNI">Laki - Laki</option>
+                                        <option value="WNA">Peremuan</option>
                                     </select>
                                 </div>
                             </div>
