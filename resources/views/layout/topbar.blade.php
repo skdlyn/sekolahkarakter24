@@ -11,15 +11,17 @@
             <ul>
                 <li><a class="nav-link scrollto" href="/">Home</a></li>
                 <li><a class="nav-link scrollto" href="/profile">Profile</a></li>
-                <li class="dropdown"><a href="/kurikulum"><span>Kurikulum</span> <i class="bi bi-chevron-down"></i></a>
+                <li class="dropdown"><a href="#"><span>Kurikulum</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
+                        <li><a href="/kurikulum">Kurikulum</a></li>
                         <li><a href="#">Debest</a></li>
                         <li><a href="#">Semai Binrang Karakter</a></li>
                         <li><a href="#">7 Kompetensi</a></li>
                     </ul>
                 </li>
-                <li class="dropdown"><a href="/berita"><span>Berita</span> <i class="bi bi-chevron-down"></i></a>
+                <li class="dropdown"><a href="#"><span>Berita</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
+                        <li><a href="/berita">BERITA</a></li>
                         <li><a href="/tv">24 TV</a></li>
                         <li><a href="/news">24 News</a></li>
                     </ul>

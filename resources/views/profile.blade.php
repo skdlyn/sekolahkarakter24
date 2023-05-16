@@ -5,33 +5,34 @@
     <section id="features" class="features">
         <div class="container" data-aos="fade-up">
             <header class="section-header">
-                <p>TENTANG <span class="us">24</span></p>
+                {{-- <h2>PROFILE</h2> --}}
+                <p>TENTANG <span class="pr">24</span></p>
             </header>
             <div class="row feture-tabs" data-aos="fade-up">
                 <div class="col-lg-6">
                     <h3>Selamat Datang di Sekolah Karakter <br><span class="txt">SD Muhammadiyah 24 Surabaya</span></h3>
                     <!-- Tabs -->
-                    <ul class="nav nav-pills mb-3">
+                    {{-- <ul class="nav nav-pills mb-3">
                         <li>
-                            <h5 class="mt-10">Tentang Kami</h5>
+                            <h5 class="tg" style="margin-top: 30px">Tentang Kami</h5>
                         </li>
-                    </ul><!-- End Tabs -->
+                    </ul><!-- End Tabs --> --}}
                     <!-- Tab Content -->
                     <div class="tab-content">
                         <div class="tab-pane fade show active" id="tab1">
-                            <p>SEKOLAH KARAKTER SD MUHAMMADIYAH 24 SURABAYA merupakan Sekolah Islam Unggulan yang didirikan
+                            <p class="text">SEKOLAH KARAKTER SD MUHAMMADIYAH 24 SURABAYA merupakan Sekolah Islam Unggulan yang didirikan
                                 oleh Muhammadiyah pada 9 Maret tahun 1978.
-                                Pendirian SEKOLAH KARAKTER merupakan respon terhadap tantangan generasi masa depan Indonesia
-                                yang semakin kompleks, sehingga penting untuk mempersiapkan Generasi Unggul dan Terbaik agar
-                                dapat menjawab tantangan masa depan.
-                                Visi Menjadi Sekolah Unggul yang Berkarakter dan Berprestasi menjadi pijakan SEKOLAH
-                                KARAKTER dalam menyelenggarakan, mengembangkan, serta optimalisasi semua potensi yang
-                                dimiliki warga sekolah.
-                                Melalui Pendidikan Karakter yang Kontekstual (Contextual), Menyenangkan (Joyfull) dan
-                                Bermakna (Meaningful), SEKOLAH KARAKTER terus berupaya menanamkan nilai-nilai kehidupan dan
+                                Pendirian <span style="font-weight:bold">SEKOLAH KARAKTER </span>merupakan respon terhadap tantangan generasi masa depan Indonesia
+                                yang semakin kompleks, sehingga penting untuk mempersiapkan <span style="font-weight:bold">Generasi Unggul dan Terbaik </span>agar
+                                dapat menjawab tantangan masa depan.</p class="text">
+                            <p class="text">Visi Menjadi Sekolah Unggul yang Berkarakter dan Berprestasi menjadi pijakan <span style="font-weight:bold">SEKOLAH
+                                KARAKTER</span> dalam menyelenggarakan, mengembangkan, serta optimalisasi semua potensi yang
+                                dimiliki warga sekolah.</p class="text">
+                            <p class="text"><span style="font-weight:bold">Pendidikan Karakter yang Kontekstual (Contextual), Menyenangkan (Joyfull) dan
+                                Bermakna (Meaningful), SEKOLAH KARAKTER </span> terus berupaya menanamkan nilai-nilai kehidupan dan
                                 optimalisasi potensi anak melalui 5 Pilar DEBEST (Qurani, Saintek, Literasi, Sport & Art dan
                                 Social Responcibility) dan Penyemaian 6 Bintang Karakter yang dikemas secara sistematis,
-                                metodis dan terukur dalam Kurikulum 24.</p>
+                                metodis dan terukur dalam Kurikulum 24.</p class="text">
                         </div><!-- End Tab 1 Content -->
                     </div>
                 </div>
@@ -45,8 +46,8 @@
     <section id="services" class="services">
         <div class="container" data-aos="fade-up">
             <header class="section-header">
-                <p>Visi & Misi Kami :</p>
-                <p>Menjadi Sekolah Unggul, Berkarakter dan Berprestasi</p>
+                <p>Visi & Misi Kami : <br>
+                <span class="pr">Menjadi Sekolah Unggul, Berkarakter dan Berprestasi</span></p>
             </header>
             <div class="row gy-4">
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
@@ -100,7 +101,7 @@
         <div class="container" data-aos="fade-up">
             <header class="section-header">
                 <h2>PENCAPAIAN</h2>
-                <p>PRESTASI SISWA <span class="news">SD KARAKTER 24</span></p>
+                <p>PRESTASI SISWA <span class="pr">SD KARAKTER 24</span></p>
             </header>
             <div id="carouselExampleCaptions" class="carousel slide">
                 <div class="carousel-indicators">

@@ -75,10 +75,8 @@
 <main id="main">
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
-
         <div class="container" data-aos="fade-up">
             <div class="row gx-0">
-
                 <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
                     <img src="{{ asset('assets/img/images/course-6.jpg') }}" class="img-fluid" alt="">
                 </div>
@@ -94,9 +92,8 @@
                             dimiliki warga sekolah.
                         </p>
                         <div class="text-center text-lg-start">
-                            <a href="/profile"
-                                class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
-                                <span>Bagaimana Strategi sekolahkarakter24?</span>
+                            <a href="/profile" class="btn-read-more">
+                                <span class="keterangan">Strategi Kami</span>
                                 <i class="bi bi-arrow-right"></i>
                             </a>
                         </div>
@@ -155,7 +152,9 @@
     <section id="features" class="features">
         <div class="container" data-aos="fade-up">
             <div class="row feature-icons" data-aos="fade-up">
-                <p>5 PILAR <span class="debest">DEBEST</span></p>
+                <header class="section-header">
+                    <p>5 PILAR <span class="debest">DEBEST</span></p>
+                </header>
                 <div class="row">
                     <div class="col-xl-4 text-center" data-aos="fade-right" data-aos-delay="100">
                         <img src="{{ asset('assets/img/images/de-best.png') }}" class="img-fluid p-4" alt="">
@@ -203,6 +202,7 @@
         </div>
         </div>
     </section>
+
     <!-- Quotes -->
     <section class="quotes">
         <div class="container h-50" data-aos="fade-up">
@@ -296,7 +296,8 @@
         <div class="container" data-aos="fade-up">
             <header class="section-header">
                 <h2>BERITA</h2>
-                <p>24 <span class="news">NEWS</span></p>
+                <p>24 <span class="pr">NEWS</span></p>
+            </header>
             </header>
             <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
                 <div class="col-lg-4 col-md-6 portfolio-item filter-app">
@@ -557,9 +558,7 @@
 
     <!-- ======= Team Section ======= -->
     <section id="team" class="team">
-
         <div class="container" data-aos="fade-up">
-
             <header class="section-header">
                 <h2>PTK 24</h2>
                 <p>TENAGA <span class="kependidikan">KEPENDIDIKAN</span></p>
@@ -659,9 +658,7 @@
 
     <!-- ======= Recent Blog Posts Section ======= -->
     <section id="recent-blog-posts" class="recent-blog-posts">
-
         <div class="container" data-aos="fade-up">
-
             <header class="section-header">
                 <h2>BERITA</h2>
                 <p>24 <span class="blog">TV</span></p>
@@ -720,8 +717,8 @@
     </section><!-- End Recent Blog Posts Section -->
 
     <!-- ======= Gallery Photo ====== -->
-    <section class="ftco-gallery">
-        <div class="container-wrap">
+    <section class="slider">
+        {{-- <div class="container-wrap">
             <div class="row no-gutters">
                 <div class="col-md-3 ftco-animate">
                     <a href="assets/img/images/image-1.jpg"
@@ -757,6 +754,83 @@
                     </a>
                 </div>
             </div>
+        </div> --}}
+        <div class="slider" x-data="{ start: true, end: false }" style="padding-top: 10px;">
+            <header class="section-header">
+                <h2 style="color: #fff">DOKUMENTASI</h2>
+                <p style="color: #fff">GALERI 24</p>
+            </header>
+            <div class="slider__content" x-ref="slider"
+                x-on:scroll.debounce="$refs.slider.scrollLeft == 0 ? start = true : start = false; Math.abs(($refs.slider.scrollWidth - $refs.slider.offsetWidth) - $refs.slider.scrollLeft) < 5 ? end = true : end = false;">
+                <div class="slider__item">
+                    <img class="slider__image" src="{{ asset('assets/img/images/course-6.jpg') }}"alt="Image">
+                    <div class="slider__info">
+                        <h2 class="fw-bold">Kegiatan 1</h2>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <img class="slider__image" src="{{ asset('assets/img/images/image-1.jpg') }}"alt="Image">
+                    <div class="slider__info">
+                        <h2 class="fw-bold">Kegiatan 2</h2>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <img class="slider__image" src="{{ asset('assets/img/images/image-2.jpg') }}" alt="Image">
+                    <div class="slider__info">
+                        <h2 class="fw-bold">Kegiatan 3</h2>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <img class="slider__image" src="{{ asset('assets/img/images/image-3.jpg') }}" alt="Image">
+                    <div class="slider__info">
+                        <h2 class="fw-bold">Kegiatan 4</h2>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <img class="slider__image" src="{{ asset('assets/img/images/image-4.jpg') }}" alt="Image">
+                    <div class="slider__info">
+                        <h2 class="fw-bold">Kegiatan 5</h2>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <img class="slider__image" src="{{ asset('assets/img/images/image-5.jpg') }}" alt="Image">
+                    <div class="slider__info">
+                        <h2 class="fw-bold">Kegiatan 6</h2>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <img class="slider__image" src="{{ asset('assets/img/images/image-6.jpg') }}" alt="Image">
+                    <div class="slider__info">
+                        <h2 class="fw-bold">Kegiatan 7</h2>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <img class="slider__image" src="{{ asset('assets/img/images/course-6.jpg') }}"alt="Image">
+                    <div class="slider__info">
+                        <h2 class="fw-bold">Kegiatan 8</h2>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <img class="slider__image" src="{{ asset('assets/img/images/course-6.jpg') }}" alt="Image">
+                    <div class="slider__info">
+                        <h2 class="fw-bold">Kegiatan 9</h2>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <img class="slider__image" src="{{ asset('assets/img/images/course-6.jpg') }}" alt="Image">
+                    <div class="slider__info">
+                        <h2 class="fw-bold">Kegiatan 10</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="slider__nav" style="display: flex;justify-content: center;">
+                <button class="slider__nav__button"
+                    x-on:click="$refs.slider.scrollBy({left: $refs.slider.offsetWidth * -1, behavior: 'smooth'});"
+                    x-bind:class="start ? '' : 'slider__nav__button--active'">Previous</button>
+                <button class="slider__nav__button"
+                    x-on:click="$refs.slider.scrollBy({left: $refs.slider.offsetWidth, behavior: 'smooth'});"
+                    x-bind:class="end ? '' : 'slider__nav__button--active'">Next</button>
+            </div>
         </div>
     </section><!-- Enf Gallery -->
 
@@ -764,9 +838,10 @@
     <section id="contact" class="contact">
         <div class="container" data-aos="fade-up">
             <header class="section-header">
-                <p><span class="h">Ingin mengajukan konsultasi dengan kami ?</span></p>
-                <h2 class="mt-4">Kami siap memberikan yang terbaik bagi anak dari Ayah Bunda. Apabila ada yang ingin
-                    ditanyakan dan disampaikan, kami siap membantu.</h2>
+                <p>INGIN MENGAJUKAN <span class="cus">KONSULTASI DENGAN KAMI ?</span></p>
+                <h2 style="margin-top: 15px;">Kami siap memberikan yang terbaik bagi anak dari Ayah Bunda. Apabila
+                    ada
+                    yang ingin ditanyakan dan disampaikan, kami siap membantu.</h2>
             </header>
             <div class="row">
                 <div class="col-lg-6">

@@ -5,7 +5,7 @@
         <div class="container" data-aos="fade-up">
             <header class="section-header" style="margin-top: 50px">
                 <h2>BERITA</h2>
-                <p>TRENDING <span class="blog" style="color: #f68c09;">24</span></p>
+                <p>TRENDING <span class="blog" style="color: #539165;">24</span></p>
             </header>
             <div class="trending-area fix">
                 <div class="trending-main">

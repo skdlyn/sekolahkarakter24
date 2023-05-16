@@ -134,7 +134,7 @@
                                   </div>
                               </div>
                           </div>
-                            <button type="submit" class="btn-sm">Submit</button>
+                            <button type="submit" class="btn btn-block">Submit</button>
                         </div>
                     </form>
                 </div>

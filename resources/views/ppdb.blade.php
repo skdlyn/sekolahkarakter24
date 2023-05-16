@@ -1,76 +1,106 @@
 @extends('layout.admin')
 @section('content')
 @section('content-title', 'PPDB SK24')
-    <!-- ======= Pricing Section ======= -->
-    <section id="pricing" class="pricing">
-        <div class="container" data-aos="fade-up">
-            <header class="section-header">
-                <h2>PPDB</h2>
-                <p>PENERIMAAN PESERTA <span class="pr">DIDIK BARU</span></p>
-            </header>
-            <div class="row gy-4 d-felx justify-content-center" data-aos="fade-left">
-                <div class="idih col-lg-3 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="100">
-                    <div class="box">
-                        <h3 style="color: #f68c09;">Reguler Class</h3>
-                        <div class="price"><sup>Rp</sup>x.xxx.xxx,00<span></span></div>
-                        <img src="{{ asset('assets/img/images/munaqosyah.jpg') }}" class="img-fluid" alt="">
-                        <ul>
-                            <li>22 Siswa/Kelas</li>
-                            <li>Metode Belajar Modul</li>
-                            <li>Program Hafidz Quran 2 Juz</li>
-                        </ul>
-                        {{-- <a href="#" class="btn-buy">Registrasi</a> --}}
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="200">
-                    <div class="box">
-                        {{-- <span class="featured">Favorite</span> --}}
-                        <h3 style="color: #65c600;">Billingual Class</h3>
-                        <div class="price"><sup>Rp</sup>x.xxx.xxx,00<span></span></div>
-                        <img src="{{ asset('assets/img/images/munaqosyah.jpg') }}" class="img-fluid" alt="">
-                        <ul>
-                            <li>28 Siswa/Kelas</li>
-                            <li>Tipe Kelas 3 Bahasa</li>
-                            <li>Program Hafidz Quran 4 Juz</li>
-                        </ul>
-                        {{-- <a href="#" class="btn-buy">Registrasi</a> --}}
-                    </div>
+<!-- ======= Pricing Section ======= -->
+<section id="pricing" class="pricing">
+    <div class="container" data-aos="fade-up">
+        <header class="section-header">
+            <h2>PPDB</h2>
+            <p>PENERIMAAN PESERTA <span class="pr">DIDIK BARU</span></p>
+        </header>
+        <div class="row gy-4 d-felx justify-content-center" data-aos="fade-left">
+            <div class="idih col-lg-3 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="100">
+                <div class="box">
+                    <h3 style="color: #7c4706;">Reguler Class</h3>
+                    <div class="price"><sup>Rp</sup>x.xxx.xxx,00<span></span></div>
+                    <img src="{{ asset('assets/img/images/munaqosyah.jpg') }}" class="img-fluid" alt="">
+                    <ul>
+                        <li>22 Siswa/Kelas</li>
+                        <li>Metode Belajar Modul</li>
+                        <li>Program Hafidz Quran 2 Juz</li>
+                    </ul>
+                    {{-- <a href="#" class="btn-buy">Registrasi</a> --}}
                 </div>
             </div>
-                {{-- <div class="row feture-tabs" data-aos="fade-up"> --}}
-            <div class="row gy-4 d-felx justify-content-center" data-aos="fade-left">
-                <div class="pembayaran col-lg-8">
-                    <h3 class="text-center" style="text-transform: uppercase">Silahkan Melakukan Pembayaran Formulir
-                        Pendaftaran Sesuai Kelas yang Dipilih Ke Nomor Rekening :</h3>
-                    <!-- Tabs -->
-                    <!-- Tab Content -->
-                    <div class="tab-content">
-                        <div class="tab-pane fade show active" id="tab1">
-                            <p class="text-center">7730001752 (Bank Muamalat) A.n SD Muhammadiyah 24 Surabaya.<br>
-                                8992424240 (Bank BSI) A.n SD MUHAMMADIYAH 24 SURABAYA</p>
-                        </div><!-- End Tab 1 Content -->
-                        <div class="tab-pane fade show active" id="tab1">
-                            <p class="text-center">Konfirmasi pendaftaran dengan mengirimkan foto bukti pembayaran via WA ke
-                                no 081250748894 (klik tombol di bawah).
-                                Setelah konfirmasi pembayaran silahkan daftar dengan klik tombol "Daftar Kelas"</p>
-                        </div><!-- End Tab 1 Content -->
-                        <div class="row d-felx justify-content-center mt-20">
-                            <div class="col-lg-6">
-                                <a href="https://wa.me/6281250748894" class="btn-konfirmasi" role="button">Konfirmasi Pembayaran
-                                    Formulir</a>
+            <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+                <div class="box">
+                    {{-- <span class="featured">Favorite</span> --}}
+                    <h3 style="color: #142403;">Billingual Class</h3>
+                    <div class="price"><sup>Rp</sup>x.xxx.xxx,00<span></span></div>
+                    <img src="{{ asset('assets/img/images/munaqosyah.jpg') }}" class="img-fluid" alt="">
+                    <ul>
+                        <li>28 Siswa/Kelas</li>
+                        <li>Tipe Kelas 3 Bahasa</li>
+                        <li>Program Hafidz Quran 4 Juz</li>
+                    </ul>
+                    {{-- <a href="#" class="btn-buy">Registrasi</a> --}}
+                </div>
+            </div>
+        </div>
+        <div class="card bayar">
+            <div class="card-body" style="border-radius: 25px">
+                {{-- <div class="row" style="border-radius: 25px"> --}}
+                    <div class="col-md-12 col-lg-12 col-xl-12 mb-4 mb-md-0">
+                        <header class="section-header" style="padding-bottom: -20px">
+                            <p>INFORMASI <span class="pr">PEMBAYARAN</span></p>
+                        </header>
+                        <div>
+                            <p class="text-center">
+                                Konfirmasi pendaftaran dengan mengirimkan foto bukti pembayaran via WA dengan klik
+                                tombol
+                                "Konfirmasi Pembayaran Formulir". Setelah konfirmasi pembayaran silahkan daftar dengan
+                                klik tombol "Daftar Kelas" <br></p>
+                            <p class="text-center fw-bold">
+                                Silahkan Melakukan Pembayaran Formulir Pendaftaran Sesuai Kelas yang Dipilih Ke Nomor
+                                Rekening :
+                            </p>
+                            <div class="p-2 d-flex justify-content-between align-items-center"
+                                style="background-color: #eee;">
+                                <span>Informasi Rekening</span>
+                                <span>a/n SD MUHAMMADIYAH 24 SURABAYA</span>
                             </div>
-                           <div class="col-lg-6">
-                               <a href="/formulir" class="btn-daftar">Daftar
-                                   Kelas
-                               </a>
-                           </div>
-                        </div>
-                        
-                    </div>
+                            <hr />
+                            <div class="d-flex flex-column mb-3">
+                                <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+                                    <input type="radio" class="btn-check" name="options" id="option1"
+                                        autocomplete="off" />
+                                    <label class="btn btn-outline-success btn-lg" for="option1">
+                                        <div class="d-flex justify-content-between">
+                                            <span>Bank Muamalat</span>
+                                            <span>7730001752</span>
+                                        </div>
+                                    </label>
 
+                                    <input type="radio" class="btn-check" name="options" id="option2"
+                                        autocomplete="off" checked />
+                                    <label class="btn btn-outline-success btn-lg" for="option2">
+                                        <div class="d-flex justify-content-between">
+                                            <span>Bank BSI </span>
+                                            <span>8992424240</span>
+                                        </div>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="text-center d-grid gap-2" style="margin: 30px">
+                                <a href="/formulir" class="btn-konfirmasi btn-block">
+                                    <span class="keterangan">Daftar Kelas</span>
+                                    <i class="bi bi-arrow-right"></i>
+                                </a>
+                                <a href="/formulir" class="btn-daftar-kelas btn-block">
+                                    <span class="keterangan">Daftar Kelas</span>
+                                    <i class="bi bi-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        </div>
-    </section><!-- End Pricing Section -->
+
+
+
+</section>
+</div>
+</div>
+</section><!-- End Pricing Section -->
 @endsection

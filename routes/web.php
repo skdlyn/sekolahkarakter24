@@ -53,6 +53,10 @@ Route::get('/agenda', function () {
     return view('agenda');
 });
 
+Route::get('/agenda_lengkap', function () {
+    return view('agenda_lengkap');
+});
+
 Route::get('/formulir', function () {
     return view('formulir');
 });

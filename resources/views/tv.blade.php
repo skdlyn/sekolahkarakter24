@@ -8,7 +8,7 @@
             <p>24 <span class="blog">TV</span></p>
         </header>
         <div class="row">
-            <div class="col-lg- mb-4 course d-lg-flex ftco-animate">
+            <div class="col-md-12 mb-4 course d-lg-flex ftco-animate">
                 <div class="videos">
                     <iframe width="500px" height="300px" src="https://www.youtube.com/embed/B1Rxlu0rzPI"
                     title="YouTube video player" frameborder="0"
